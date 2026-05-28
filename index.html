@@ -12,8 +12,6 @@
 
 <style>
   body { font-family: Inter, sans-serif; }
-  .gold { color: #C8A96B; }
-  .navy { background-color: #0B1C33; }
 </style>
 </head>
 
@@ -21,7 +19,7 @@
 
 <!-- NAVBAR -->
 <header class="flex justify-between items-center px-8 py-6 border-b">
-  <div class="text-xl font-serif font-bold navy-text">
+  <div class="text-xl font-serif font-bold">
     Millard Agingu & Company Advocates
   </div>
 
@@ -37,8 +35,16 @@
   </a>
 </header>
 
-<!-- HERO -->
-<section class="navy text-white px-8 py-28 text-center">
+<!-- HERO (FIXED WITH PROPER IMAGE) -->
+<section class="relative text-white px-8 py-28 text-center"
+style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1950&q=80'); background-size:cover; background-position:center;">
+
+<!-- overlay -->
+<div class="absolute inset-0 bg-[#0B1C33] opacity-80"></div>
+
+<!-- content -->
+<div class="relative z-10">
+
   <p class="uppercase tracking-widest text-[#C8A96B] text-sm mb-4">
     Boutique International Legal Practice
   </p>
@@ -59,6 +65,8 @@
       WhatsApp Us
     </a>
   </div>
+
+</div>
 </section>
 
 <!-- TRUST BAR -->
@@ -101,8 +109,8 @@
 </section>
 
 <!-- SPANISH -->
-<section id="spanish" class="navy text-white px-8 py-24 text-center">
-  <h2 class="text-3xl font-serif mb-6 gold">
+<section id="spanish" class="bg-[#0B1C33] text-white px-8 py-24 text-center">
+  <h2 class="text-3xl font-serif mb-6 text-[#C8A96B]">
     Servicios Legales para Clientes Hispanohablantes en Kenia
   </h2>
 
@@ -110,7 +118,7 @@
     We provide dedicated legal services to Spanish-speaking individuals, families, investors and businesses in Kenya.
   </p>
 
-  <p class="mt-4 italic gold">
+  <p class="mt-4 italic text-[#C8A96B]">
     Asistencia legal estratégica para hispanohablantes en Kenia.
   </p>
 
@@ -119,48 +127,9 @@
   </a>
 </section>
 
-<!-- WHY -->
-<section class="px-8 py-24 max-w-6xl mx-auto text-center">
-  <h2 class="text-3xl font-serif mb-10">Why Choose Us</h2>
-
-  <div class="grid md:grid-cols-4 gap-6 text-sm">
-    <div>Strategic Advisory</div>
-    <div>International Perspective</div>
-    <div>Multilingual Support</div>
-    <div>Discretion & Professionalism</div>
-  </div>
-</section>
-
-<!-- INSIGHTS -->
-<section id="insights" class="bg-gray-50 px-8 py-24">
-  <div class="max-w-6xl mx-auto text-center">
-    <h2 class="text-3xl font-serif mb-12">Insights</h2>
-
-    <div class="grid md:grid-cols-3 gap-6 text-left">
-
-      <div class="bg-white p-6 rounded-xl">
-        <h3 class="font-serif">Data Protection in Kenya</h3>
-      </div>
-
-      <div class="bg-white p-6 rounded-xl">
-        <h3 class="font-serif">Work Permits in Kenya</h3>
-      </div>
-
-      <div class="bg-white p-6 rounded-xl">
-        <h3 class="font-serif">Guía Legal para Hispanohablantes</h3>
-      </div>
-
-    </div>
-  </div>
-</section>
-
 <!-- CONTACT -->
-<section id="contact" class="navy text-white px-8 py-24 text-center">
+<section id="contact" class="bg-[#0B1C33] text-white px-8 py-24 text-center">
   <h2 class="text-3xl font-serif mb-6">Contact Us</h2>
-
-  <p class="text-gray-300 mb-8">
-    Schedule a consultation for tailored legal advice.
-  </p>
 
   <form class="max-w-xl mx-auto grid gap-4">
     <input class="p-3 text-black rounded" placeholder="Name" />
@@ -172,10 +141,6 @@
       Send Message
     </button>
   </form>
-
-  <p class="mt-8 text-sm text-gray-400">
-    WhatsApp: +254103065510 | Email: info@millardlegalpractice.com
-  </p>
 </section>
 
 <!-- FOOTER -->
