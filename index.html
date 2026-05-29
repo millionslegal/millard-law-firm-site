@@ -161,26 +161,92 @@
 </section>
 
 <!-- CONTACT -->
+<!-- CONTACT -->
 <section id="contact" class="relative py-28 px-8 overflow-hidden">
     <div class="absolute inset-0 bg-[#07111F]"></div>
+
     <div class="relative z-10 max-w-4xl mx-auto text-center">
-        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">Contact</p>
-        <h2 class="serif text-5xl mb-8">Schedule a Consultation</h2>
-        <p class="text-gray-300 max-w-2xl mx-auto mb-12">Speak with us regarding commercial, immigration, conveyancing, family or international legal matters.</p>
-        <form action="https://formspree.io/f/xkoeylpk"
-method="POST"
-class="grid gap-5 max-w-2xl mx-auto">
-            <input type="text" name="name" class="p-4 rounded-xl bg-white text-black" placeholder="Name">
-            <input type="email" name="email" class="p-4 rounded-xl bg-white text-black" placeholder="Email">
-            <input type="text" name="phone" class="p-4 rounded-xl bg-white text-black" placeholder="Phone">
-            <textarea name="message" class="p-4 rounded-xl bg-white text-black h-40" placeholder="Message"></textarea>
-            <button type="submit" class="bg-[#C8A96B] text-black py-4 rounded-full font-semibold uppercase tracking-wide hover:scale-105 transition">
+        
+        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">
+            Contact
+        </p>
+
+        <h2 class="serif text-5xl mb-8">
+            Schedule a Consultation
+        </h2>
+
+        <p class="text-gray-300 max-w-2xl mx-auto mb-12">
+            Speak with us regarding commercial, immigration, conveyancing,
+            family or international legal matters.
+        </p>
+
+        <form 
+            action="https://formspree.io/f/xkoeylpk"
+            method="POST"
+            class="grid gap-5 max-w-2xl mx-auto"
+        >
+
+            <!-- Hidden Subject -->
+            <input 
+                type="hidden" 
+                name="_subject" 
+                value="New Website Inquiry - Millard Agingu Advocates"
+            >
+
+            <!-- Name -->
+            <input
+                type="text"
+                name="name"
+                required
+                autocomplete="name"
+                placeholder="Name"
+                class="p-4 rounded-xl bg-white text-black focus:outline-none"
+            >
+
+            <!-- Email -->
+            <input
+                type="email"
+                name="email"
+                required
+                autocomplete="email"
+                placeholder="Email"
+                class="p-4 rounded-xl bg-white text-black focus:outline-none"
+            >
+
+            <!-- Phone -->
+            <input
+                type="text"
+                name="phone"
+                autocomplete="tel"
+                placeholder="Phone"
+                class="p-4 rounded-xl bg-white text-black focus:outline-none"
+            >
+
+            <!-- Message -->
+            <textarea
+                name="message"
+                required
+                placeholder="Message"
+                class="p-4 rounded-xl bg-white text-black h-40 focus:outline-none"
+            ></textarea>
+
+            <!-- Submit Button -->
+            <button
+                type="submit"
+                class="bg-[#C8A96B] text-black py-4 px-8 rounded-full font-semibold uppercase tracking-wide hover:scale-105 transition duration-300"
+            >
+                Send Message
+            </button>
+
         </form>
+
+        <!-- Contact Details -->
         <div class="mt-14 text-gray-400 font-normal space-y-2">
             <div>info@millardlegalpractice.com</div>
             <div>+254 103 065 510</div>
             <div>P.O. Box 38729-00623 Nairobi</div>
         </div>
+
     </div>
 </section>
 
