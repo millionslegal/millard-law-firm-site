@@ -26,7 +26,7 @@
     <div class="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-8 py-5">
 
         <a href="index.html" class="flex items-center gap-4">
-            <img src="https://i.imgur.com/YRpFo04.png" class="h-14 md:h-16 w-auto">
+            <img src="https://i.imgur.com/YRpFo04.png" class="h-14 md:h-16 w-auto" alt="Logo">
             <div>
                 <div class="text-lg font-semibold">Millard Agingu</div>
                 <div class="text-[10px] uppercase tracking-[0.25em] text-[#C8A96B]">
@@ -35,17 +35,58 @@
             </div>
         </a>
 
-        <div class="hidden md:flex gap-8 text-sm uppercase tracking-[0.15em]">
-            <a href="index.html#practice" class="hover:text-[#C8A96B]">Practice Areas</a>
-            <a href="index.html#spanish" class="hover:text-[#C8A96B]">Spanish Services</a>
-            <a href="insights.html" class="text-[#C8A96B]">Insights</a>
-            <a href="index.html#contact" class="hover:text-[#C8A96B]">Contact</a>
-        </div>
+        <!-- DESKTOP NAV -->
+        <nav class="hidden md:flex gap-8 text-sm uppercase tracking-[0.15em] items-center">
+            <a href="index.html" class="hover:text-[#C8A96B] transition">Home</a>
+            <a href="index.html#practice" class="hover:text-[#C8A96B] transition">Practice Areas</a>
+            <a href="abogado-en-kenia.html" class="hover:text-[#C8A96B] transition">Spanish Services</a>
+            <a href="insights.html" class="text-[#C8A96B] font-medium">Insights</a>
+            <a href="index.html#contact" class="hover:text-[#C8A96B] transition">Contact</a>
+        </nav>
 
+        <!-- DESKTOP CTA -->
         <a href="index.html#contact"
-           class="bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold">
+           class="hidden md:inline-block bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition">
            Consultation
         </a>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button id="menu-btn" class="md:hidden text-white text-3xl focus:outline-none">
+            ☰
+        </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#07111F] border-t border-white/10">
+
+        <div class="flex flex-col px-6 py-6 space-y-5 text-sm uppercase tracking-[0.15em]">
+
+            <a href="index.html" class="hover:text-[#C8A96B] transition mobile-link">
+                Home
+            </a>
+
+            <a href="index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">
+                Practice Areas
+            </a>
+
+            <a href="abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link">
+                Spanish Services
+            </a>
+
+            <a href="insights.html" class="text-[#C8A96B] font-medium mobile-link">
+                Insights
+            </a>
+
+            <a href="index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">
+                Contact
+            </a>
+
+            <a href="index.html#contact" class="bg-[#C8A96B] text-[#07111F] px-5 py-3 rounded-full text-center font-semibold mobile-link">
+                Consultation
+            </a>
+
+        </div>
 
     </div>
 </header>
@@ -209,5 +250,20 @@
     © 2026 Millard Agingu & Company Advocates
 </footer>
 
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+</script>
 </body>
 </html>
