@@ -1,54 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- Core Static Pages -->
   <url>
     <loc>https://millardlegalpractice.com/</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
-
   <url>
     <loc>https://millardlegalpractice.com/insights</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
-
   <url>
     <loc>https://millardlegalpractice.com/abogado-en-kenia</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
 
+  <!-- Category 01: Corporate & Commercial Advisory Articles -->
   <url>
-    <loc>https://millardlegalpractice.com/foreign-property-kenya</loc>
-    <lastmod>2026-06-09</lastmod>
+    <loc>https://millardlegalpractice.com/register-company-kenya-foreign-investors</loc>
+    <lastmod>2026-06-20</lastmod>
   </url>
-
   <url>
-    <loc>https://millardlegalpractice.com/buying-property-in-kenya-as-a-foreigner</loc>
-    <lastmod>2026-06-09</lastmod>
+    <loc>https://millardlegalpractice.com/starting-business-in-kenya-foreigner</loc>
+    <lastmod>2026-06-20</lastmod>
   </url>
-
   <url>
-    <loc>https://millardlegalpractice.com/data-protection-kenya</loc>
-    <lastmod>2026-06-09</lastmod>
+    <loc>https://millardlegalpractice.com/consumer-protection-law-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
   </url>
 
+  <!-- Category 02: Immigration & Workforce Compliance Articles -->
   <url>
     <loc>https://millardlegalpractice.com/immigration-kenya-work-permits</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/understanding-work-permits-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/work-permit-vs-business-permit-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/common-reasons-work-permit-rejection-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/business-visas-special-passes-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
   </url>
 
+  <!-- Category 03: Property & Conveyancing Law Articles -->
+  <url>
+    <loc>https://millardlegalpractice.com/buying-property-in-kenya-as-a-foreigner</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/foreign-property-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+
+  <!-- Category 04: Data Protection & Privacy Compliance Articles -->
+  <url>
+    <loc>https://millardlegalpractice.com/data-protection-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/does-business-need-privacy-policy-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/data-controllers-vs-data-processors-kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+  <url>
+    <loc>https://millardlegalpractice.com/cross-border-data-transfer-Kenya</loc>
+    <lastmod>2026-06-20</lastmod>
+  </url>
+
+  <!-- Legal Footnotes -->
   <url>
     <loc>https://millardlegalpractice.com/privacy-policy</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
-
   <url>
     <loc>https://millardlegalpractice.com/terms-of-use</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
-
   <url>
     <loc>https://millardlegalpractice.com/disclaimer</loc>
-    <lastmod>2026-06-09</lastmod>
+    <lastmod>2026-06-20</lastmod>
   </url>
 
 </urlset>
