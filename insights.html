@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Legal Insights | Millard Agingu & Company Advocates</title>
+    <title>Legal Insights & Corporate Intelligence | Millard Agingu & Company Advocates</title>
 
-    <meta name="description" content="Legal insights, analysis and updates on commercial law, immigration, data protection, and property law in Kenya." />
-    <meta name="keywords" content="legal insights Kenya, law blog Kenya, immigration updates Kenya, data protection Kenya insights, property law Kenya updates" />
+    <meta name="description" content="Strategic regulatory analysis, commercial law commentary, immigration compliance manuals, and data privacy legal updates for foreign investors in Kenya." />
+    <meta name="keywords" content="legal insights Kenya, law blog Kenya, register company Nairobi, immigration law Kenya, work permit foreign investor Kenya, data protection compliance ODPC" />
 
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -16,6 +16,11 @@
     <style>
         body { font-family: 'Inter', sans-serif; background: #07111F; }
         .serif { font-family: 'Cormorant Garamond', serif; }
+        .filter-btn.active {
+            border-color: #C8A96B;
+            color: #C8A96B;
+            background-color: rgba(200, 169, 107, 0.05);
+        }
     </style>
     <!-- Favicon Links -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
@@ -24,7 +29,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 </head>
 
-<body class="text-white">
+<body class="text-white bg-[#07111F]">
 
 <!-- NAVBAR -->
 <header class="fixed top-0 left-0 w-full z-50 bg-[#07111F]/90 backdrop-blur border-b border-white/10">
@@ -52,7 +57,7 @@
         <!-- DESKTOP CTA -->
         <a href="index.html#contact"
            class="hidden md:inline-block bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition">
-           Consultation
+            Consultation
         </a>
 
         <!-- MOBILE MENU BUTTON -->
@@ -64,197 +69,263 @@
 
     <!-- MOBILE MENU -->
     <div id="mobile-menu" class="hidden md:hidden bg-[#07111F] border-t border-white/10">
-
         <div class="flex flex-col px-6 py-6 space-y-5 text-sm uppercase tracking-[0.15em]">
-
-            <a href="index.html" class="hover:text-[#C8A96B] transition mobile-link">
-                Home
-            </a>
-
-            <a href="index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">
-                Practice Areas
-            </a>
-
-            <a href="abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link">
-                Spanish Services
-            </a>
-
-            <a href="insights.html" class="text-[#C8A96B] font-medium mobile-link">
-                Insights
-            </a>
-
-            <a href="index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">
-                Contact
-            </a>
-
+            <a href="index.html" class="hover:text-[#C8A96B] transition mobile-link">Home</a>
+            <a href="index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">Practice Areas</a>
+            <a href="abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link">Spanish Services</a>
+            <a href="insights.html" class="text-[#C8A96B] font-medium mobile-link">Insights</a>
+            <a href="index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">Contact</a>
             <a href="index.html#contact" class="bg-[#C8A96B] text-[#07111F] px-5 py-3 rounded-full text-center font-semibold mobile-link">
                 Consultation
             </a>
-
         </div>
-
     </div>
 </header>
 
 <!-- HERO -->
-<section class="relative pt-40 pb-24 px-8 text-center">
+<section class="relative pt-44 pb-12 px-8 text-center">
     <div class="max-w-4xl mx-auto">
-
-        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">
-            Legal Intelligence & Market Insights
+        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-xs font-semibold mb-4">
+            Legal Intelligence &amp; Regulatory Briefings
         </p>
-
-        <h1 class="serif text-5xl md:text-6xl mb-8">
-            Legal Insights & Analysis
+        <h1 class="serif text-4xl md:text-5xl lg:text-6xl mb-6 tracking-wide">
+            Legal Insights &amp; Analysis
         </h1>
-
-        <p class="text-gray-300 text-lg leading-relaxed">
-            Strategic commentary and analysis on legal developments affecting businesses,
-            investors, and international clients in Kenya.
+        <p class="text-gray-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
+            Strategic corporate risk analysis, immigration pathways, data governance frameworks, and property conveyancing guidelines for international operations in Kenya.
         </p>
-
     </div>
 </section>
 
-<!-- FEATURED ARTICLES -->
-<section class="px-8 pb-28">
-    <div class="max-w-7xl mx-auto">
+<!-- DYNAMIC CATEGORY FILTER NAV BAR -->
+<section class="sticky top-[89px] z-40 bg-[#07111F]/95 backdrop-blur border-b border-white/5 py-4 px-6 mb-16">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-center items-center gap-2 md:gap-4 text-xs uppercase tracking-wider">
+        <button onclick="filterCategory('all')" id="btn-all" class="filter-btn active px-4 py-2 rounded-full border border-white/10 hover:border-[#C8A96B] hover:text-[#C8A96B] transition duration-200">All Insights</button>
+        <button onclick="filterCategory('corporate')" id="btn-corporate" class="filter-btn px-4 py-2 rounded-full border border-white/10 hover:border-[#C8A96B] hover:text-[#C8A96B] transition duration-200">01. Corporate Setup</button>
+        <button onclick="filterCategory('immigration')" id="btn-immigration" class="filter-btn px-4 py-2 rounded-full border border-white/10 hover:border-[#C8A96B] hover:text-[#C8A96B] transition duration-200">02. Immigration</button>
+        <button onclick="filterCategory('property')" id="btn-property" class="filter-btn px-4 py-2 rounded-full border border-white/10 hover:border-[#C8A96B] hover:text-[#C8A96B] transition duration-200">03. Property Law</button>
+        <button onclick="filterCategory('data')" id="btn-data" class="filter-btn px-4 py-2 rounded-full border border-white/10 hover:border-[#C8A96B] hover:text-[#C8A96B] transition duration-200">04. Data Privacy</button>
+    </div>
+</section>
 
-        <div class="grid md:grid-cols-3 gap-8">
+<!-- INSIGHTS EDITORIAL MATRIX -->
+<section class="px-6 md:px-8 space-y-20 max-w-7xl mx-auto pb-32">
 
-            <!-- ARTICLE 1 -->
-            <a href="data-protection-kenya.html"
-               class="bg-white rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition block">
+    <!-- CATEGORY 1: CORPORATE & COMMERCIAL -->
+    <div id="cat-corporate" class="category-block border-t border-white/10 pt-10 transition-all duration-300">
+        <div class="mb-8">
+            <span class="text-xs uppercase font-mono tracking-widest text-[#C8A96B]">Category 01</span>
+            <h2 class="serif text-2xl md:text-3xl font-medium mt-1 text-white">Corporate &amp; Commercial Advisory</h2>
+        </div>
 
-                <div class="p-6">
-                    <h3 class="serif text-2xl text-black mb-3">
-                        Data Protection Compliance in Kenya
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <!-- FEATURED LEFT -->
+            <div class="lg:col-span-7 bg-[#0B1C33]/40 border border-white/10 rounded-2xl p-6 md:p-8 flex flex-col justify-between hover:border-white/20 transition duration-300 group">
+                <div>
+                    <span class="text-[10px] font-semibold uppercase bg-[#C8A96B]/10 text-[#C8A96B] px-3 py-1 rounded-full tracking-wider">Featured Guide</span>
+                    <h3 class="serif text-2xl md:text-3xl font-medium text-white mt-5 mb-4 group-hover:text-[#C8A96B] transition duration-300">
+                        <a href="register-company-kenya-foreign-investors.html">Company Registration in Kenya for Foreign Investors</a>
                     </h3>
-                    <p class="text-gray-600">
-                        Regulatory obligations for international companies handling personal data in Kenya.
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        An operational look at incorporating limited liability companies, subsidiary setups, and foreign branch offices under the Kenyan Companies Act, detailing beneficial ownership disclosure mandates and post-incorporation parameters.
                     </p>
                 </div>
+                <a href="register-company-kenya-foreign-investors.html" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[#C8A96B] font-semibold group-hover:underline">
+                    Read Executive Blueprint <span>→</span>
+                </a>
+            </div>
 
-            </a>
-
-            <!-- ARTICLE 2 -->
-            <a href="immigration-kenya-work-permits.html"
-               class="bg-white rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition block">
-
-                <div class="p-6">
-                    <h3 class="serif text-2xl text-black mb-3">
-                        Work Permits & Immigration in Kenya
-                    </h3>
-                    <p class="text-gray-600">
-                        Legal guidance for investors, professionals, and expatriates entering Kenya.
-                    </p>
+            <!-- COMPACT LIST RIGHT -->
+            <div class="lg:col-span-5 flex flex-col justify-start space-y-4">
+                <div class="p-5 rounded-xl border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gray-400">Market Entry Analysis</span>
+                    <h4 class="serif text-lg font-medium text-white mt-1 mb-1 hover:text-[#C8A96B] transition">
+                        <a href="starting-business-in-kenya-foreigner.html">Starting a Business in Kenya as a Foreigner</a>
+                    </h4>
+                    <p class="text-gray-400 text-xs leading-relaxed">Evaluating localized ownership structures, investment thresholds, and trade operations within East Africa.</p>
                 </div>
 
-            </a>
-
-            <!-- ARTICLE 3 -->
-            <a href="foreign-property-kenya.html"
-               class="bg-white rounded-2xl overflow-hidden shadow-lg hover:scale-[1.02] transition block">
-
-                <div class="p-6">
-                    <h3 class="serif text-2xl text-black mb-3">
-                        Buying Property in Kenya as a Foreigner
-                    </h3>
-                    <p class="text-gray-600">
-                        Legal framework governing land ownership, leaseholds, and foreign investment structures.
-                    </p>
+                <div class="p-5 rounded-xl border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gray-400">Regulatory Advisory</span>
+                    <h4 class="serif text-lg font-medium text-white mt-1 mb-1 hover:text-[#C8A96B] transition">
+                        <a href="consumer-protection-law-kenya.html">Consumer Protection Law in Kenya</a>
+                    </h4>
+                    <p class="text-gray-400 text-xs leading-relaxed">Corporate risk profiling, operational trade liabilities, and consumer engagement compliance for foreign-backed retail and tech firms.</p>
                 </div>
-
-            </a>
-<!-- FEATURED ARTICLE: PROPERTY GUIDE -->
-<a href="buying-property-in-kenya-as-a-foreigner.html" class="block bg-white p-6 rounded-3xl shadow-lg hover:-translate-y-1 transition duration-300">
-
-    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80"
-         class="w-full aspect-video object-cover rounded-2xl mb-6 shadow-sm"
-         alt="Buying Property in Kenya">
-
-    <p class="uppercase text-xs tracking-[0.2em] text-[#8B6B36] mb-3">
-        Featured Guide • Real Estate
-    </p>
-
-    <h3 class="serif text-2xl mb-4">
-        Buying Property in Kenya as a Foreigner
-    </h3>
-
-    <p class="text-gray-600">
-        A practical legal guide covering leasehold ownership, restrictions, due diligence and investment structuring for foreign buyers in Kenya.
-    </p>
-
-</a>
+            </div>
         </div>
     </div>
-</section>
 
-<!-- CATEGORY SECTION -->
-<section class="px-8 pb-28">
-    <div class="max-w-5xl mx-auto text-center">
+    <!-- CATEGORY 2: IMMIGRATION & WORKFORCE COMPLIANCE -->
+    <div id="cat-immigration" class="category-block border-t border-white/10 pt-10 transition-all duration-300">
+        <div class="mb-8">
+            <span class="text-xs uppercase font-mono tracking-widest text-[#C8A96B]">Category 02</span>
+            <h2 class="serif text-2xl md:text-3xl font-medium mt-1 text-white">Immigration &amp; Workforce Compliance</h2>
+        </div>
 
-        <h2 class="serif text-4xl mb-10">Practice Areas Covered</h2>
-
-        <div class="grid md:grid-cols-2 gap-6 text-left">
-
-            <div class="bg-[#0B1C33] p-6 rounded-xl">
-                <h3 class="serif text-xl mb-2">Corporate & Commercial Law</h3>
-                <p class="text-gray-300 text-sm">
-                    Structuring, contracts, transactions, and cross-border advisory.
-                </p>
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <!-- FEATURED LEFT -->
+            <div class="lg:col-span-7 bg-[#0B1C33]/40 border border-white/10 rounded-2xl p-6 md:p-8 flex flex-col justify-between hover:border-white/20 transition duration-300 group">
+                <div>
+                    <span class="text-[10px] font-semibold uppercase bg-[#C8A96B]/10 text-[#C8A96B] px-3 py-1 rounded-full tracking-wider">Featured Guide</span>
+                    <h3 class="serif text-2xl md:text-3xl font-medium text-white mt-5 mb-4 group-hover:text-[#C8A96B] transition duration-300">
+                        <a href="immigration-kenya-work-permits.html">Immigration Frameworks and Work Permits in Kenya</a>
+                    </h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        An exhaustive regulatory breakdown mapping executive classes, Class G investor avenues, processing milestones, and continuous global corporate workforce monitoring protocols.
+                    </p>
+                </div>
+                <a href="immigration-kenya-work-permits.html" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[#C8A96B] font-semibold group-hover:underline">
+                    Read Statutory Manual <span>→</span>
+                </a>
             </div>
 
-            <div class="bg-[#0B1C33] p-6 rounded-xl">
-                <h3 class="serif text-xl mb-2">Immigration Law</h3>
-                <p class="text-gray-300 text-sm">
-                    Work permits, investor visas, and expatriate compliance.
-                </p>
-            </div>
+            <!-- COMPACT GRID RIGHT (ALL 4 REMAINING ARTICLES DISPLAYED SIMULTANEOUSLY) -->
+            <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+                <div class="p-4 rounded-lg border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <h4 class="serif text-base font-medium text-white hover:text-[#C8A96B] transition">
+                        <a href="understanding-work-permits-kenya.html">Understanding Work Permits in Kenya</a>
+                    </h4>
+                    <p class="text-gray-400 text-[11px] mt-1">A professional assessment of individual processing categories for foreign personnel.</p>
+                </div>
+                
+                <div class="p-4 rounded-lg border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <h4 class="serif text-base font-medium text-white hover:text-[#C8A96B] transition">
+                        <a href="work-permit-vs-business-permit-kenya.html">Work Permit vs. Business Permit</a>
+                    </h4>
+                    <p class="text-gray-400 text-[11px] mt-1">Differentiating municipal local trading certificates from federal immigration workforce mandates.</p>
+                </div>
 
-            <div class="bg-[#0B1C33] p-6 rounded-xl">
-                <h3 class="serif text-xl mb-2">Data Protection</h3>
-                <p class="text-gray-300 text-sm">
-                    Privacy compliance and regulatory advisory for global companies.
-                </p>
-            </div>
+                <div class="p-4 rounded-lg border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <h4 class="serif text-base font-medium text-white hover:text-[#C8A96B] transition">
+                        <a href="common-reasons-work-permit-rejection-kenya.html">Common Reasons for Work Permit Rejection</a>
+                    </h4>
+                    <p class="text-gray-400 text-[11px] mt-1">Diagnostic risk avoidance highlighting structural documentation or capitalization errors.</p>
+                </div>
 
-            <div class="bg-[#0B1C33] p-6 rounded-xl">
-                <h3 class="serif text-xl mb-2">Real Estate & Property</h3>
-                <p class="text-gray-300 text-sm">
-                    Foreign ownership structures and investment due diligence.
-                </p>
+                <div class="p-4 rounded-lg border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <h4 class="serif text-base font-medium text-white hover:text-[#C8A96B] transition">
+                        <a href="business-visas-special-passes-kenya.html">Business Visas &amp; Special Passes</a>
+                    </h4>
+                    <p class="text-gray-400 text-[11px] mt-1">Short-term legal structures allowing foreign consultants to deploy legally.</p>
+                </div>
             </div>
-
         </div>
     </div>
+
+    <!-- CATEGORY 3: PROPERTY & CONVEYANCING LAW -->
+    <div id="cat-property" class="category-block border-t border-white/10 pt-10 transition-all duration-300">
+        <div class="mb-8">
+            <span class="text-xs uppercase font-mono tracking-widest text-[#C8A96B]">Category 03</span>
+            <h2 class="serif text-2xl md:text-3xl font-medium mt-1 text-white">Property &amp; Conveyancing Law</h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <!-- FEATURED LEFT -->
+            <div class="lg:col-span-7 bg-[#0B1C33]/40 border border-white/10 rounded-2xl p-6 md:p-8 flex flex-col justify-between hover:border-white/20 transition duration-300 group">
+                <div>
+                    <span class="text-[10px] font-semibold uppercase bg-[#C8A96B]/10 text-[#C8A96B] px-3 py-1 rounded-full tracking-wider">Featured Guide</span>
+                    <h3 class="serif text-2xl md:text-3xl font-medium text-white mt-5 mb-4 group-hover:text-[#C8A96B] transition duration-300">
+                        <a href="buying-property-in-kenya-as-a-foreigner.html">Buying Property in Kenya as a Foreigner</a>
+                    </h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        An operational asset protection guide breaking down residential or commercial acquisition pathways, mandatory physical registry searches, leasehold limitations, and execution phases.
+                    </p>
+                </div>
+                <a href="buying-property-in-kenya-as-a-foreigner.html" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[#C8A96B] font-semibold group-hover:underline">
+                    Read Acquisition Guide <span>→</span>
+                </a>
+            </div>
+
+            <!-- COMPACT GRID RIGHT -->
+            <div class="lg:col-span-5 flex flex-col justify-start">
+                <div class="p-5 rounded-xl border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition w-full">
+                    <span class="text-[10px] font-mono uppercase tracking-widest text-gray-400">Tenure Classification</span>
+                    <h4 class="serif text-lg font-medium text-white mt-1 mb-1 hover:text-[#C8A96B] transition">
+                        <a href="foreign-property-kenya.html">Foreign Property Holding in Kenya</a>
+                    </h4>
+                    <p class="text-gray-400 text-xs leading-relaxed">Analyzing constitutional limitations on foreign land ownership, 99-year lease renewals, and corporate landholding vehicles.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CATEGORY 4: DATA PROTECTION & PRIVACY COMPLIANCE -->
+    <div id="cat-data" class="category-block border-t border-white/10 pt-10 transition-all duration-300">
+        <div class="mb-8">
+            <span class="text-xs uppercase font-mono tracking-widest text-[#C8A96B]">Category 04</span>
+            <h2 class="serif text-2xl md:text-3xl font-medium mt-1 text-white">Data Protection &amp; Privacy Compliance</h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <!-- FEATURED LEFT -->
+            <div class="lg:col-span-7 bg-[#0B1C33]/40 border border-white/10 rounded-2xl p-6 md:p-8 flex flex-col justify-between hover:border-white/20 transition duration-300 group">
+                <div>
+                    <span class="text-[10px] font-semibold uppercase bg-[#C8A96B]/10 text-[#C8A96B] px-3 py-1 rounded-full tracking-wider">Featured Guide</span>
+                    <h3 class="serif text-2xl md:text-3xl font-medium text-white mt-5 mb-4 group-hover:text-[#C8A96B] transition duration-300">
+                        <a href="data-protection-kenya.html">Data Protection Compliance in Kenya</a>
+                    </h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        Reviewing corporate liability under the Data Protection Act, detailing regulatory ODPC audits, fine structures, and mandatory compliance protocols for international firms handling local data.
+                    </p>
+                </div>
+                <a href="data-protection-kenya.html" class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-[#C8A96B] font-semibold group-hover:underline">
+                    Read Regulatory Briefing <span>→</span>
+                </a>
+            </div>
+
+            <!-- COMPACT GRID RIGHT (ALL 3 REMAINING DATA PROTECTION ARTICLES) -->
+            <div class="lg:col-span-5 flex flex-col justify-start space-y-4">
+                <div class="p-4 rounded-lg border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <h4 class="serif text-base font-medium text-white hover:text-[#C8A96B] transition">
+                        <a href="does-business-need-privacy-policy-kenya.html">Does Your Business Need a Privacy Policy in Kenya?</a>
+                    </h4>
+                    <p class="text-gray-400 text-xs mt-1">Statutory mandates forcing client-facing portals or mobile interfaces to host localized disclosure statements.</p>
+                </div>
+
+                <div class="p-4 rounded-lg border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <h4 class="serif text-base font-medium text-white hover:text-[#C8A96B] transition">
+                        <a href="data-controllers-vs-data-processors-kenya.html">Data Controllers vs. Data Processors</a>
+                    </h4>
+                    <p class="text-gray-400 text-xs mt-1">Demarcating institutional liability profiles, operating obligations, and filing distinct tiers with the registry.</p>
+                </div>
+
+                <div class="p-4 rounded-lg border border-white/5 bg-[#0B1C33]/20 hover:border-white/10 transition">
+                    <h4 class="serif text-base font-medium text-white hover:text-[#C8A96B] transition">
+                        <a href="cross-border-data-transfer-Kenya.html">Cross-Border Data Transfers in Kenya</a>
+                    </h4>
+                    <p class="text-gray-400 text-xs mt-1">Assessing constraints on legal extraction, commercial cloud storage operations, and international structural alignment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
-<!-- CTA -->
-<section class="px-8 pb-28">
-    <div class="max-w-4xl mx-auto text-center bg-[#0B1C33] p-12 rounded-2xl">
-
-        <h2 class="serif text-3xl mb-4">
-            Need Strategic Legal Advice?
+<!-- ENTERPRISE STRATEGIC CTA -->
+<section class="px-6 md:px-8 pb-32">
+    <div class="max-w-4xl mx-auto text-center bg-[#0B1C33] border border-white/10 p-12 md:p-16 rounded-2xl shadow-2xl relative overflow-hidden">
+        <div class="absolute -right-16 -top-16 w-36 h-36 bg-[#C8A96B]/5 rounded-full blur-xl"></div>
+        
+        <p class="uppercase tracking-[0.25em] text-[#C8A96B] text-xs font-semibold mb-3">Enterprise Advisory</p>
+        <h2 class="serif text-3xl md:text-4xl text-white mb-4">
+            Require Strategic Legal Counsel in Kenya?
         </h2>
-
-        <p class="text-gray-300 mb-8">
-            Speak with our team for tailored legal guidance for your business or investment in Kenya.
+        <p class="text-gray-400 text-sm md:text-base mb-10 max-w-2xl mx-auto leading-relaxed">
+            Our firm routinely structuralizes cross-border transactions, handles complex corporate formations, manages workforce immigration protocols, and coordinates high-stakes regulatory clearance for international organizations.
         </p>
-
         <a href="index.html#contact"
-           class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold">
-            Contact Us
+           class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold text-sm hover:bg-white hover:text-[#07111F] transition duration-300 tracking-wide inline-block">
+            Request Corporate Advisory Consultation
         </a>
-
     </div>
 </section>
 
 <!-- FOOTER -->
-<footer class="border-t border-white/10 py-8 text-gray-500 text-sm bg-[#07111F]">
+<footer class="border-t border-white/10 py-10 text-gray-500 text-sm bg-[#07111F]">
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
-            © 2026 Millard Agingu & Company Advocates
+            © 2026 Millard Agingu &amp; Company Advocates
         </div>
         <div class="flex flex-col md:flex-row gap-4 md:gap-6 text-gray-400">
             <a href="privacy-policy.html" class="hover:text-[#C8A96B] transition">Privacy Policy</a>
@@ -264,7 +335,33 @@
     </div>
 </footer>
 
+<!-- INTERACTIVE FILTERING & MOBILE NAV SCRIPT -->
 <script>
+    function filterCategory(category) {
+        // Update Filter Button Styles
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        document.getElementById(`btn-${category}`).classList.add('active');
+
+        // Toggle Blocks Smoothly
+        document.querySelectorAll('.category-block').forEach(block => {
+            if (category === 'all') {
+                block.style.display = 'block';
+                setTimeout(() => { block.style.opacity = '1'; }, 10);
+            } else {
+                if (block.id === `cat-${category}`) {
+                    block.style.display = 'block';
+                    setTimeout(() => { block.style.opacity = '1'; }, 10);
+                } else {
+                    block.style.opacity = '0';
+                    block.style.display = 'none';
+                }
+            }
+        });
+    }
+
+    // Mobile Navbar Logic
     const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
     const mobileLinks = document.querySelectorAll('.mobile-link');
