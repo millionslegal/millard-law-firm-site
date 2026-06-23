@@ -3,21 +3,70 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    
-    <title>Abogado en Kenia | Millard Agingu & Company Advocates</title>
+    <title>Abogado en Kenia | Asesoría Legal Corporativa y de Inmigración</title>
 
-    <meta name="description" content="Servicios legales en Kenia para clientes hispanohablantes. Derecho comercial, inmigración, inversión extranjera, propiedad y asesoría legal estratégica." />
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Abogado corporativo y de inmigración en Kenia. Servicios legales en español de la firma Millard Agingu & Company Advocates para constitución de empresas, visas y permisos de trabajo Clase D y G.">
+    <meta name="keywords" content="abogado en kenia, invertir en kenia, constitución de empresas kenia, permiso de trabajo kenia, abogado nairobi, millard agingu" />
+    <link rel="canonical" href="https://millardlegalpractice.com/abogado-en-kenia" />
 
-    <meta name="keywords" content="abogado en Kenia, lawyer in Kenya Spanish, visa Kenia, inversión extranjera Kenia, abogado inmigración Kenia, legal services Kenya Spanish, property lawyer Kenya" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Abogado en Kenia | Asesoría Legal y de Inmigración para Hispanohablantes" />
+    <meta property="og:description" content="Servicios legales especializados en español bajo la firma Millard Agingu & Company Advocates. Constitución de empresas, visas de inversionista y cumplimiento regulatorio en Nairobi." />
+    <meta property="og:url" content="https://millardlegalpractice.com/abogado-en-kenia" />
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Abogado en Kenia | Asesoría Legal Corporativa" />
+    <meta name="twitter:description" content="Asesoría legal estratégica en español para empresas, fundadores e inversores extranjeros en el mercado de Kenia." />
+
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&family=Cormorant+Garamond:wght=500;600;700&display=swap" rel="stylesheet">
 
     <style>
         body { font-family: 'Inter', sans-serif; background: #07111F; }
         .serif { font-family: 'Cormorant Garamond', serif; }
     </style>
+
+    <!-- JSON-LD Advanced Legal & Specific Service Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LegalService",
+          "@id": "https://millardlegalpractice.com/#organization",
+          "name": "Millard Agingu & Company Advocates",
+          "url": "https://millardlegalpractice.com",
+          "logo": "https://millardlegalpractice.com/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://millardlegalpractice.com/abogado-en-kenia#service",
+          "serviceType": "Asesoría Legal para Hispanohablantes en Kenia",
+          "provider": {
+            "@id": "https://millardlegalpractice.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          "knowsLanguage": ["en", "es"],
+          "description": "Servicios legales y asesoría estratégica en español para la constitución de empresas, inversión extranjera directa, y gestión de permisos de trabajo en Kenia."
+        }
+      ]
+    }
+    </script>
     <!-- Favicon Links -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -35,7 +84,9 @@
             <img src="https://i.imgur.com/YRpFo04.png" class="h-14 md:h-16 w-auto" alt="Logo">
             <div>
                 <div class="text-lg font-semibold">Millard Agingu</div>
-                <div class="text-xs uppercase tracking-[0.25em] text-[#C8A96B]">& Company Advocates</div>
+                <div class="text-[10px] uppercase tracking-[0.25em] text-[#C8A96B]">
+                    & Company Advocates
+                </div>
             </div>
         </a>
 
@@ -43,7 +94,7 @@
         <nav class="hidden md:flex gap-8 text-sm uppercase tracking-[0.15em] items-center">
             <a href="index.html" class="hover:text-[#C8A96B] transition">Home</a>
             <a href="index.html#practice" class="hover:text-[#C8A96B] transition">Practice Areas</a>
-            <a href="abogado-en-kenia.html" class="text-[#C8A96B] font-medium">Spanish Services</a>
+            <a href="abogado-en-kenia.html" class="hover:text-[#C8A96B] transition text-[#C8A96B]">Spanish Services</a>
             <a href="insights.html" class="hover:text-[#C8A96B] transition">Insights</a>
             <a href="index.html#contact" class="hover:text-[#C8A96B] transition">Contact</a>
         </nav>
@@ -51,7 +102,7 @@
         <!-- DESKTOP CTA -->
         <a href="index.html#contact"
            class="hidden md:inline-block bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition">
-           Consultation
+            Consultation
         </a>
 
         <!-- MOBILE MENU BUTTON -->
@@ -63,171 +114,205 @@
 
     <!-- MOBILE MENU -->
     <div id="mobile-menu" class="hidden md:hidden bg-[#07111F] border-t border-white/10">
-
         <div class="flex flex-col px-6 py-6 space-y-5 text-sm uppercase tracking-[0.15em]">
-
-            <a href="index.html" class="hover:text-[#C8A96B] transition mobile-link">
-                Home
-            </a>
-
-            <a href="index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">
-                Practice Areas
-            </a>
-
-            <a href="abogado-en-kenia.html" class="text-[#C8A96B] font-medium mobile-link">
-                Spanish Services
-            </a>
-
-            <a href="insights.html" class="hover:text-[#C8A96B] transition mobile-link">
-                Insights
-            </a>
-
-            <a href="index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">
-                Contact
-            </a>
-
+            <a href="index.html" class="hover:text-[#C8A96B] transition mobile-link">Home</a>
+            <a href="index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">Practice Areas</a>
+            <a href="abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link text-[#C8A96B]">Spanish Services</a>
+            <a href="insights.html" class="hover:text-[#C8A96B] transition mobile-link">Insights</a>
+            <a href="index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">Contact</a>
             <a href="index.html#contact" class="bg-[#C8A96B] text-[#07111F] px-5 py-3 rounded-full text-center font-semibold mobile-link">
                 Consultation
             </a>
-
         </div>
-
     </div>
 </header>
 
 <!-- HERO -->
-<section class="relative min-h-screen flex items-center justify-center text-center pt-32">
+<section class="relative pt-40 pb-24 px-8 text-center">
+    <div class="max-w-4xl mx-auto">
 
-    <div class="absolute inset-0">
-        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1950&q=80"
-             class="w-full h-full object-cover" />
-        <div class="absolute inset-0 bg-black/70"></div>
-    </div>
-
-    <div class="relative z-10 max-w-5xl px-6">
-
-        <p class="uppercase tracking-[0.4em] text-[#C8A96B] text-sm mb-6">
-            Servicios Legales en Kenia
+        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">
+            Asesoría Legal y Puentes Transfronterizos en África Oriental
         </p>
 
-        <h1 class="serif text-5xl md:text-7xl mb-8 leading-tight">
-            Abogado en Kenia para Clientes Hispanohablantes
+        <h1 class="serif text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight">
+            Abogado en Kenia para Empresas, Inversores Extranjeros y Expatriados Hispanohablantes
         </h1>
 
-        <p class="text-gray-300 text-lg md:text-xl max-w-3xl mx-auto mb-10">
-            Asesoría legal estratégica en derecho comercial, inmigración, inversión extranjera,
-            propiedad y asuntos familiares en Kenia.
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify">
+            Expandir sus operaciones a África Oriental, estructurar inversiones internacionales o gestionar la movilidad de personal corporativo en una jurisdicción extranjera demanda algo más que trámites administrativos estándar: requiere una estrategia jurídica integral. Como firma de abogados en Kenia con capacidad de atención en español, proporcionamos soluciones claras para mitigar las barreras idiomáticas y del sistema legal de <i>Common Law</i>.
         </p>
 
-        <div class="flex flex-col md:flex-row justify-center gap-5">
-
-            <a href="https://wa.me/254103065510"
-               class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:scale-105 transition">
-                WhatsApp Directo
-            </a>
-
+        <div class="mt-10">
             <a href="index.html#contact"
-               class="border border-white/40 px-8 py-4 rounded-full hover:bg-white hover:text-black transition">
-                Agendar Consulta
+               class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block">
+                Agendar una Consulta Estratégica
             </a>
-
         </div>
 
     </div>
-
 </section>
 
-<!-- VALUE SECTION -->
-<section class="py-28 px-8 bg-[#F5F5F3] text-black">
+<!-- CONTENT -->
+<section class="px-8 pb-28">
+    <div class="max-w-4xl mx-auto space-y-14">
 
-    <div class="max-w-5xl mx-auto text-center">
+        <!-- Firm Introduction Block -->
+        <div class="space-y-4 text-gray-300 leading-relaxed bg-[#0B1C33] p-8 rounded-xl border border-white/10 text-justify">
+            <p>
+                La firma legal <strong>Millard Agingu &amp; Company Advocates</strong> opera bajo la premisa de que las inversiones transfronterizas exitosas dependen de un control estricto del cumplimiento normativo local. El ecosistema regulatorio en Kenia exige que cada actividad comercial, societaria o migratoria esté alineada de manera exacta con las leyes estatutarias estatales.
+            </p>
+            <p>
+                Nuestros servicios están diseñados para eliminar la fricción operativa para clientes procedentes de España, Latinoamérica y corporaciones multinacionales que requieren una representación nativa, transparente y técnica en la región desde nuestras oficinas principales situadas en Nairobi.
+            </p>
+        </div>
 
-        <h2 class="serif text-5xl mb-10">
-            Asesoría Legal Internacional con Enfoque Estratégico
-        </h2>
-
-        <p class="text-gray-700 text-lg leading-relaxed mb-6">
-            Ofrecemos servicios legales especializados para individuos, inversionistas y empresas
-            de habla hispana que operan o desean establecerse en Kenia.
-        </p>
-
-        <p class="text-gray-700 text-lg leading-relaxed mb-6">
-            Nuestro enfoque combina derecho comercial, regulación internacional y asesoría estratégica
-            para facilitar la entrada y operación en el mercado keniano.
-        </p>
-
-        <p class="text-gray-700 text-lg leading-relaxed">
-            Entendemos tanto el contexto legal local como las necesidades de clientes internacionales,
-            garantizando claridad, discreción y resultados estratégicos.
-        </p>
-
-    </div>
-
-</section>
-
-<!-- PRACTICE AREAS -->
-<section class="py-28 px-8 bg-white text-black">
-
-    <div class="max-w-6xl mx-auto text-center">
-
-        <h2 class="serif text-5xl mb-16">Áreas de Práctica</h2>
-
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
-
-            <div>
-                <h3 class="serif text-2xl mb-3">Derecho Comercial</h3>
-                <p class="text-gray-600">Contratos, estructuras corporativas, inversión y asesoría empresarial.</p>
+        <!-- Pillar 1: Corporate and Market Entry -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Derecho Corporativo y Constitución de Empresas en Kenia</h2>
+            <p>
+                El proceso de ingresar al mercado keniano requiere un análisis exhaustivo previo sobre la estructura societaria más conveniente. Ofrecemos una guía clara en el diseño corporativo para asegurar que los derechos de propiedad, la responsabilidad financiera y los esquemas operativos queden blindados legalmente.
+            </p>
+            <p>Nuestra práctica en el ámbito societario y comercial abarca:</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm bg-white/5 p-6 rounded-xl border border-white/5 text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Constitución de empresas de capital extranjero y sucursales filiales.</li>
+                    <li>Estructuración de acuerdos de accionistas y gobiernos corporativos.</li>
+                    <li>Declaraciones de beneficiarios reales (<i>Beneficial Ownership Disclosures</i>).</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Redacción, revisión y negociación de contratos mercantiles complejos.</li>
+                    <li>Obtención de licencias comerciales y registros ante autoridades fiscales (KRA).</li>
+                    <li>Asesoramiento integral sobre cumplimiento de la Ley de Sociedades (<i>Companies Act</i>).</li>
+                </ul>
             </div>
+        </div>
 
-            <div>
-                <h3 class="serif text-2xl mb-3">Inmigración</h3>
-                <p class="text-gray-600">Permisos de trabajo, residencia e inversión extranjera.</p>
+        <!-- Comparative Framework Box -->
+        <div class="bg-[#0B1C33] p-6 rounded-xl border border-white/10 text-justify">
+            <h4 class="text-[#C8A96B] font-semibold mb-2">Comprensión del Sistema: Derecho Civil vs. Common Law</h4>
+            <p class="text-xs text-gray-400">
+                A diferencia de los códigos civiles codificados de España y América Latina, el sistema legal en Kenia se fundamenta sobre el Derecho de <i>Common Law</i>, donde los precedentes judiciales y la jurisprudencia juegan un rol decisivo. En <strong>Millard Agingu &amp; Company Advocates</strong> actuamos como un puente estratégico, traduciendo conceptos institucionales anglosajones a esquemas claros y comprensibles para estructuras comerciales acostumbradas al Derecho Continental.
+            </p>
+        </div>
+
+        <!-- Pillar 2: Immigration and Labor Mobility -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Inmigración Corporativa y Permisos de Trabajo en Kenia</h2>
+            <p>
+                La gestión del talento internacional requiere una planeación meticulosa. En Kenia, el marco normativo de inmigración vincula de forma estricta los visados otorgados con la actividad real que el ciudadano extranjero desarrollará en el territorio nacional. Cualquier inconsistencia puede acarrear sanciones corporativas e individuales de carácter administrativo.
+            </p>
+            <p>Ofrecemos soluciones avanzadas en la tramitación y consultoría de las siguientes categorías:</p>
+            
+            <div class="space-y-4 mt-4">
+                <div class="p-5 rounded-xl bg-white/5 border border-white/5">
+                    <h3 class="text-white font-semibold text-lg">Permisos de Trabajo Clase D (Empleo Formal)</h3>
+                    <p class="text-xs text-gray-400 mt-1">
+                        Destinados a personal técnico altamente especializado, directores generales o ejecutivos que son contratados directamente por corporaciones kenianas o multinacionales con base local. El proceso exige la demostración técnica de capacidades no disponibles en el mercado de trabajo doméstico y programas explícitos de transferencia de habilidades a ciudadanos locales (<i>Understudy Programs</i>).
+                    </p>
+                </div>
+
+                <div class="p-5 rounded-xl bg-white/5 border border-white/5">
+                    <h3 class="text-white font-semibold text-lg">Permisos de Trabajo Clase G (Inversores y Comercio)</h3>
+                    <p class="text-xs text-gray-400 mt-1">
+                        Dirigidos a emprendedores, fundadores y consultores independientes que deseen explotar un negocio por cuenta propia en el territorio. Requiere la acreditación de capitales de inversión mínimos introducidos formalmente en el sistema financiero keniano y la obtención de las licencias específicas de cada industria antes de su implementación operativa.
+                    </p>
+                </div>
+
+                <div class="p-5 rounded-xl bg-white/5 border border-white/5">
+                    <h3 class="text-white font-semibold text-lg">Pases Especiales (<i>Special Passes</i>) y Trámites de Corta Duración</h3>
+                    <p class="text-xs text-gray-400 mt-1">
+                        Mecanismos legales de carácter provisional diseñados para consultorías de corta duración, instalaciones industriales específicas, o misiones temporales que no superen los tres o seis meses. Orientamos a las empresas para evitar el uso erróneo de visados turísticos ordinarios para fines comerciales.
+                    </p>
+                </div>
             </div>
+            <p class="text-sm italic text-gray-400 text-center mt-2">
+                Para obtener un desglose detallado de los requisitos migratorios, visite nuestra guía especializada sobre <a href="services/immigration-lawyer-kenya.html" class="text-[#C8A96B] hover:underline">Immigration Lawyer in Kenya</a>.
+            </p>
+        </div>
 
-            <div>
-                <h3 class="serif text-2xl mb-3">Protección de Datos</h3>
-                <p class="text-gray-600">Cumplimiento normativo y regulación tecnológica.</p>
+        <!-- Pillar 3: Property and Real Estate -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Propiedad Raíz y Bienes Raíces para Extranjeros</h2>
+            <p>
+                La Constitución de Kenia impone ciertas limitaciones claras sobre la adquisición de activos inmobiliarios por parte de ciudadanos extranjeros o corporaciones con participación extranjera mayoritaria. Los no ciudadanos solo pueden ostentar derechos de propiedad bajo regímenes de arrendamiento a largo plazo (<i>Leaseholds</i>) con un límite temporal constitucional de 99 años, quedando excluidos de la tenencia de tierras agrícolas o de propiedad absoluta (<i>Freeholds</i>).
+            </p>
+            <p>
+                Nuestra oficina le acompaña mediante auditorías legales de títulos (<i>Due Diligence</i>), redacción de contratos de arrendamiento mercantil y verificación de cargas ante el Registro de la Propiedad para garantizar inversiones inmobiliarias seguras.
+            </p>
+        </div>
+
+        <!-- Legal Strategy Overlap -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Una Estrategia Legal Integrada para Invertir en Kenia</h2>
+            <p>
+                En el entorno de negocios moderno de Nairobi, las áreas normativas no operan de forma aislada. La solicitud exitosa de un permiso de trabajo está fuertemente entrelazada con el volumen de capitalización corporativa de la empresa, el estatus fiscal de sus directores ante la KRA, y el cumplimiento de las normativas de protección de datos personales vigentes en el país.
+            </p>
+            <p>
+                Al centralizar sus necesidades jurídicas en <strong>Millard Agingu &amp; Company Advocates</strong>, aseguramos que su estrategia de entrada al mercado africano sea robusta, previniendo auditorías sorpresivas de las agencias de inspección migratoria o sanciones comerciales por fallos de forma en los expedientes corporativos.
+            </p>
+        </div>
+
+        <!-- FAQs Section in Spanish -->
+        <div id="faqs" class="pt-8 space-y-6 border-t border-white/10 text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Preguntas Frecuentes sobre Servicios Legales en Kenia</h2>
+            
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h4 class="text-white font-medium">¿Es obligatorio que un extranjero tenga un socio local en Kenia para abrir una empresa?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Bajo la Ley de Sociedades actual de Kenia, en términos generales es posible constituir una sociedad comercial con un 100% de capital extranjero. No obstante, existen industrias reguladas específicas (como seguros, telecomunicaciones o ciertos servicios de seguridad) donde el Estado exige un porcentaje obligatorio de participación local.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">¿En qué idioma se gestionan los procesos judiciales y corporativos formales?</h4>
+                    <p class="text-gray-400 text-sm mt-1">El idioma oficial para todas las leyes, contratos, presentaciones de registros corporativos, tribunales y trámites administrativos estatales en Kenia es estrictamente el inglés. Nuestra firma actúa como traductor de su visión estratégica y de negocio, gestionando toda la interlocución formal en inglés mientras le mantenemos informado en su idioma nativo.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">¿Puedo iniciar labores profesionales si mi permiso Clase D está en proceso?</h4>
+                    <p class="text-gray-400 text-sm mt-1">No. Las normas de inmigración establecen con claridad que una solicitud pendiente de resolución en el portal eFNS no otorga facultades de trabajo legales. Iniciar labores comerciales o de empleo sin la aprobación final impresa constituye una infracción legal grave tanto para el empleado como para la entidad empleadora.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">¿Cuánto tiempo dura el proceso de incorporación societaria?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Gracias al sistema electrónico de registro de empresas del gobierno, la reserva de nombre y la aprobación de los estatutos fundacionales suele tomar entre 1 y 2 semanas, siempre que toda la información de los directores extranjeros y los datos de beneficiarios reales estén debidamente certificados.</p>
+                </div>
             </div>
+        </div>
 
-            <div>
-                <h3 class="serif text-2xl mb-3">Propiedad Inmobiliaria</h3>
-                <p class="text-gray-600">Compra, transferencia y debida diligencia inmobiliaria.</p>
+        <!-- Related Insights in Spanish -->
+        <div class="pt-8 border-t border-white/10 space-y-3 text-justify">
+            <h3 class="serif text-2xl text-[#C8A96B]">Recursos e Información de Mercado</h3>
+            <p class="text-sm text-gray-400">Si está planificando su expansión comercial, inversión corporativa o reubicación en la región, le invitamos a examinar nuestras publicaciones de análisis detallado:</p>
+            <ul class="list-disc pl-6 text-xs space-y-1 text-gray-400">
+                <li><a href="services/immigration-lawyer-kenya.html" class="text-[#C8A96B] hover:underline">Guía completa sobre tipos de permisos de trabajo y residencia en Kenia.</a></li>
+                <li><a href="insights.html" class="text-[#C8A96B] hover:underline">Estructuras legales para la constitución y registro de empresas comerciales extranjeros.</a></li>
+                <li><a href="insights.html" class="text-[#C8A96B] hover:underline">Marco regulatorio de inversión extranjera directa y protección de activos en Kenia.</a></li>
+            </ul>
+        </div>
+
+        <!-- CTA CASE WRAPPER -->
+        <div class="bg-[#0B1C33] p-10 rounded-2xl text-center border border-white/10 text-justify">
+            <h3 class="serif text-2xl mb-4 text-[#C8A96B] text-center">¿Necesita Representación Legal Técnica en Kenia?</h3>
+            <p class="text-gray-300 mb-4 text-sm">
+                Nuestros servicios de asesoría jurídica mitigan el riesgo de disputas comerciales y optimizan los plazos de puesta en marcha de sus actividades comerciales en Nairobi y en toda la región de África Oriental.
+            </p>
+            <p class="text-gray-400 mb-6 text-xs text-center font-medium">
+                Póngase en contacto con el despacho <strong>Millard Agingu &amp; Company Advocates</strong> para coordinar una sesión de consulta formal y evaluar los requerimientos regulatorios de su proyecto corporativo.
+            </p>
+            <div class="text-center">
+                <a href="index.html#contact"
+                   class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block text-sm">
+                    Contactar con un Abogado en Kenia
+                </a>
             </div>
-
-            <div>
-                <h3 class="serif text-2xl mb-3">Derecho de Familia</h3>
-                <p class="text-gray-600">Asuntos matrimoniales y sucesorios.</p>
-            </div>
-
         </div>
 
     </div>
-
-</section>
-
-<!-- CTA -->
-<section class="py-28 px-8 bg-[#07111F] text-white text-center">
-
-    <h2 class="serif text-5xl mb-8">
-        Hable con un Abogado Hoy
-    </h2>
-
-    <p class="text-gray-300 max-w-2xl mx-auto mb-10">
-        Reciba asesoría legal clara y estratégica adaptada a sus necesidades en Kenia.
-    </p>
-
-    <a href="https://wa.me/254103065510"
-       class="bg-[#C8A96B] text-black px-10 py-4 rounded-full font-semibold hover:scale-105 transition">
-        Contactar por WhatsApp
-    </a>
-
 </section>
 
 <!-- FOOTER -->
 <footer class="border-t border-white/10 py-8 text-gray-500 text-sm bg-[#07111F]">
     <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
         <div>
-            © 2026 Millard Agingu & Company Advocates
+            © 2026 Millard Agingu &amp; Company Advocates
         </div>
         <div class="flex flex-col md:flex-row gap-4 md:gap-6 text-gray-400">
             <a href="privacy-policy.html" class="hover:text-[#C8A96B] transition">Privacy Policy</a>
