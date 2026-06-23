@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Add this near the top of your <head> block -->
-<link rel="canonical" href="https://millardlegalpractice.com/services/immigration-lawyer-kenya" />
-  
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Immigration Lawyer in Kenya | Work Permits & Investor Entry Advisory</title>
     <meta name="description" content="Strategic corporate immigration lawyer in Kenya. Specialized legal counsel for Class D work permits, Class G investor permits, Special Passes, and employer workforce compliance.">
+    <link rel="canonical" href="https://millardlegalpractice.com/services/immigration-lawyer-kenya" />
     
-    <!-- Custom Brand Color Palette Style Declarations -->
+    <!-- Premium Brand Color Palette Style Declarations -->
     <style>
         :root {
             --color-primary-dark: #07111F;   /* Premium Deep Navy background */
@@ -27,15 +25,76 @@
             line-height: 1.625;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
+        /* Firm Header & Navbar Styling */
+        .site-header {
+            background-color: var(--color-primary-dark);
+            border-bottom: 1px solid var(--color-border-muted);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        .header-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-logo {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.25rem;
+            letter-spacing: 0.05em;
+        }
+
+        .brand-logo span {
+            color: var(--color-accent-gold);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-link {
+            color: var(--color-text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.2s ease;
+        }
+
+        .nav-link:hover, .nav-link.active {
+            color: var(--color-accent-gold);
+        }
+
+        /* Main Container & Justified Content Typography */
         .container {
             max-width: 1100px;
             margin: 0 auto;
             padding: 40px 20px;
+            flex: 1;
         }
 
-        /* Typography Styling */
+        section p {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #E2E8F0;
+            text-align: justify; /* Text Justification Implemented */
+        }
+
         h1 {
             font-size: 2.5rem;
             font-weight: 700;
@@ -62,12 +121,6 @@
             margin-bottom: 12px;
         }
 
-        p {
-            margin-top: 0;
-            margin-bottom: 20px;
-            color: #E2E8F0;
-        }
-
         .subtitle {
             font-size: 1.25rem;
             color: var(--color-text-muted);
@@ -75,12 +128,12 @@
             margin-bottom: 32px;
         }
 
-        /* UI Blocks & Components */
+        /* UI Components & Cards */
         .cta-button {
             background-color: var(--color-accent-gold);
             color: #000000;
             padding: 14px 28px;
-            border-radius: 9999px;
+            border-radius: 4px;
             font-weight: 600;
             text-decoration: none;
             display: inline-block;
@@ -97,21 +150,22 @@
             background-color: var(--color-surface-card);
             padding: 20px 24px;
             margin: 32px 0;
-            border-radius: 0 8px 8px 0;
+            border-radius: 0 4px 4px 0;
         }
 
         .blockquote-container p {
             margin: 0;
             font-style: italic;
             color: #FFFFFF;
+            text-align: justify;
         }
 
-        /* Responsive Matrix / Data Table */
+        /* Responsive Data Matrices */
         .responsive-table-wrapper {
             overflow-x: auto;
             margin: 32px 0;
             border: 1px solid var(--color-border-muted);
-            border-radius: 8px;
+            border-radius: 4px;
         }
 
         table {
@@ -140,11 +194,11 @@
             border-bottom: none;
         }
 
-        /* Sequential Process Component Layout */
+        /* Process Flow Component Layout */
         .sequence-container {
             background-color: var(--color-surface-card);
             border: 1px solid var(--color-border-muted);
-            border-radius: 8px;
+            border-radius: 4px;
             padding: 24px;
             margin: 32px 0;
         }
@@ -209,7 +263,6 @@
             margin-left: 8px;
         }
 
-        /* Multi-column Grid Layouts */
         .grid-two-col {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -220,7 +273,7 @@
         .card-block {
             background-color: var(--color-surface-card);
             border: 1px solid var(--color-border-muted);
-            border-radius: 8px;
+            border-radius: 4px;
             padding: 24px;
         }
 
@@ -237,13 +290,9 @@
 
         .card-block li {
             margin-bottom: 8px;
+            text-align: justify;
         }
 
-        .card-block li:last-child {
-            margin-bottom: 0;
-        }
-
-        /* Structural Unordered Lists */
         .structured-list {
             padding-left: 20px;
             margin-bottom: 24px;
@@ -252,9 +301,10 @@
         .structured-list li {
             margin-bottom: 10px;
             color: #E2E8F0;
+            text-align: justify;
         }
 
-        /* FAQ Accordion Architecture styling */
+        /* FAQ Framework */
         .faq-item {
             border-bottom: 1px solid var(--color-border-muted);
             padding: 20px 0;
@@ -278,9 +328,10 @@
         .faq-answer {
             color: #CBD5E1;
             margin-bottom: 0;
+            text-align: justify;
         }
 
-        /* Related Links Grid */
+        /* Grid Framework for Separated Links */
         .links-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -292,68 +343,151 @@
             background-color: var(--color-surface-card);
             border: 1px solid var(--color-border-muted);
             padding: 16px;
-            border-radius: 6px;
+            border-radius: 4px;
             color: #FFFFFF;
             text-decoration: none;
             font-weight: 500;
-            transition: border-color 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
         }
 
         .insight-link:hover {
             border-color: var(--color-accent-gold);
+            background-color: #13243C;
+        }
+
+        /* Standardized Legal Firm Footer Style */
+        .site-footer {
+            background-color: #030A14;
+            border-top: 1px solid var(--color-border-muted);
+            padding: 40px 20px;
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        .footer-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .footer-col h4 {
+            color: #FFFFFF;
+            margin-top: 0;
+            margin-bottom: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .footer-links a {
+            color: var(--color-text-muted);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--color-accent-gold);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid var(--color-border-muted);
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
         }
 
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
             .grid-two-col { grid-template-columns: 1fr; }
+            .header-container, .footer-top, .footer-bottom { flex-direction: column; align-items: flex-start; }
+            .nav-menu { flex-direction: column; gap: 12px; margin-top: 16px; }
         }
     </style>
 
-    <!-- Structured SEO Schema Data (JSON-LD LocalBusiness & Service) -->
+    <!-- Corrected JSON-LD Structural Data (Hidden cleanly from body view) -->
     <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
     {
-      "@type": "LegalService",
-      "@id": "https://millardlegalpractice.com/#organization",
-      "name": "Millard Agingu & Company Advocates",
-      "url": "https://millardlegalpractice.com",
-      "logo": "https://millardlegalpractice.com/logo.png",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Nairobi",
-        "addressCountry": "KE"
-      }
-    },
-    {
-      "@type": "Service",
-      "@id": "https://millardlegalpractice.com/services/immigration-lawyer-kenya#service",
-      "serviceType": "Corporate Immigration and Work Permit Legal Advisory",
-      "provider": {
-        "@id": "https://millardlegalpractice.com/#organization"
-      },
-      "areaServed": {
-        "@type": "Country",
-        "name": "Kenya"
-      },
-      "description": "Strategic legal advisory services for corporate entity setups, Class D and Class G work permits, Special Passes, and expatriate compliance in Kenya."
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LegalService",
+          "@id": "https://millardlegalpractice.com/#organization",
+          "name": "Millard Agingu & Company Advocates",
+          "url": "https://millardlegalpractice.com",
+          "logo": "https://millardlegalpractice.com/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://millardlegalpractice.com/services/immigration-lawyer-kenya#service",
+          "serviceType": "Corporate Immigration and Work Permit Legal Advisory",
+          "provider": {
+            "@id": "https://millardlegalpractice.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          "description": "Strategic legal advisory services for corporate entity setups, Class D and Class G work permits, Special Passes, and expatriate compliance in Kenya."
+        }
+      ]
     }
-  ]
-}
-</script>
+    </script>
 </head>
 <body>
 
+    <!-- Semantic Standard Header Header Layout -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="/" class="brand-logo">MILLARD<span>LEGAL</span></a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="/" class="nav-link">Home</a></li>
+                    <li><a href="/services/immigration-lawyer-kenya" class="nav-link active">Services</a></li>
+                    <li><a href="/insights" class="nav-link">Insights</a></li>
+                    <li><a href="/#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Copy Block Element -->
     <main class="container">
         
-        <!-- Header Section -->
-        <header>
+        <section>
             <h1>Immigration Lawyer in Kenya for Work Permits, Investor Entry and Workforce Compliance</h1>
             <p class="subtitle">Strategic Immigration and Work Permit Advisory in Kenya for Foreign Investors, Employers and Expatriates</p>
             <a href="#contact" class="cta-button">Request Corporate Immigration Consultation</a>
-        </header>
+        </section>
 
         <!-- Executive Narrative Block -->
         <section>
@@ -362,7 +496,7 @@
             <p>At Millard Agingu & Company Advocates, we provide strategic advice on business immigration in Kenya, work permit applications in Kenya, investor entry planning, and employer immigration compliance, with a focus on reducing delays, avoiding regulatory risk, and aligning immigration strategy with the client’s wider commercial objectives.</p>
         </section>
 
-        <!-- Contextual Blockquote -->
+        <!-- Contextual Quote UI block element -->
         <div class="blockquote-container">
             <p>Kenya remains an important destination for foreign investment, regional operations, international hiring, and cross-border expansion. But immigration compliance in Kenya is not a box-ticking exercise. A foreign national’s right to work, invest, consult, reside, or carry on business in Kenya depends on holding the correct immigration status for the activity in question.</p>
         </div>
@@ -445,7 +579,7 @@
             </ul>
         </section>
 
-        <!-- Audience Classification Component -->
+        <!-- Dynamic Visual Partition Grid Components -->
         <section class="grid-two-col">
             <div class="card-block">
                 <h3>Who We Assist</h3>
@@ -469,7 +603,7 @@
             </div>
         </section>
 
-        <!-- Statutory Route Matrix Component -->
+        <!-- Technical Permit Statutory Directory Component -->
         <section>
             <h2>Work Permits in Kenya: Key Permit and Pass Routes</h2>
             <p>Kenya’s immigration framework recognises several permit classes and immigration pathways depending on the activity the foreign national intends to undertake. The correct route depends on the actual role, the employer or business structure, and the legal basis on which the foreign national will be present in Kenya.</p>
@@ -517,7 +651,7 @@
             <p>Because the Kenyan immigration system is activity-specific, the right question is not simply “what permit is available?” but rather “what immigration status lawfully matches the activity the foreign national will actually undertake in Kenya?”</p>
         </section>
 
-        <!-- Procedural Roadmap Sequence Component -->
+        <!-- Step Block Progress Component -->
         <section>
             <h2>How We Support Work Permit and Immigration Applications in Kenya</h2>
             <div class="sequence-container">
@@ -568,11 +702,10 @@
             </ul>
         </section>
 
-        <!-- Structural Alignment Interlinking Section -->
+        <!-- Interlinking Layout Strategy -->
         <section>
             <h2>Immigration Compliance in Kenya Is Part of a Wider Business and Legal Strategy</h2>
-            <p>For foreign investors and international businesses, immigration law rarely operates in isolation. A work permit or investor permit issue may overlap with company incorporation, employment and HR compliance, tax and payroll considerations, sector-specific licensing, beneficial ownership disclosures, and data handling obligations under the Data Protection Act relating to employee and applicant files.</p>
-            <p>That is why we approach business immigration in Kenya as part of a broader legal strategy rather than as a standalone administrative filing. A well-structured immigration plan should support the client’s actual business operations in Kenya, not sit awkwardly beside them.</p>
+            <p>For foreign investors and international businesses, immigration law rarely operates in isolation. A work permit or investor permit issue may overlap with company incorporation, employment and HR compliance, tax and payroll considerations, sector-specific licensing, beneficial ownership disclosures, and data handling obligations under the Data Protection Act relating to employee and applicant files. That is why we approach business immigration in Kenya as part of a broader legal strategy rather than as a standalone administrative filing.</p>
         </section>
 
         <!-- FAQ Accordion Block -->
@@ -606,27 +739,59 @@
             </div>
         </section>
 
-        <!-- Clean Link Structural Routing Matrix -->
+        <!-- Clean Directory Routing Grid (Updated to map to root for insights) -->
         <section>
             <h2>Related Immigration and Market Entry Insights</h2>
             <p>If you are considering expansion, relocation, or foreign investment in Kenya, you may also find these resources useful:</p>
             <div class="links-grid">
-                <a href="work-permits-kenya" class="insight-link">Our Guide to Work Permits &amp; Classes</a>
-                <a href="starting-business-in-kenya-foreigner" class="insight-link">Setting up a Company as a Foreigner</a>
-                <a href="register-company-kenya-foreign-investors" class="insight-link">Investor and Business Structuring</a>
-                <a href="foreign-property-kenya" class="insight-link">Foreign Property Ownership in Kenya</a>
-                <a href="insights" class="insight-link">Employment, Compliance &amp; Data Protection</a>
+                <a href="/services/work-permits-kenya" class="insight-link">Our Guide to Work Permits &amp; Classes</a>
+                <a href="/starting-business-in-kenya-foreigner" class="insight-link">Setting up a Company as a Foreigner</a>
+                <a href="/register-company-kenya-foreign-investors" class="insight-link">Investor and Business Structuring</a>
+                <a href="/foreign-property-kenya" class="insight-link">Foreign Property Ownership in Kenya</a>
+                <a href="/insights" class="insight-link">Employment, Compliance &amp; Data Protection</a>
             </div>
         </section>
 
-        <!-- Call To Action Closing -->
+        <!-- Closing Action Context Section -->
         <section id="contact" style="margin-top: 56px; text-align: center;">
             <h2>Speak to an Immigration Lawyer in Kenya</h2>
             <p style="max-width: 750px; margin: 0 auto 24px auto;">Whether you are hiring foreign staff, expanding a foreign-owned business into Kenya, regularising an immigration position, or planning market entry as an investor or founder, we can advise on the legal structure, documentation, and compliance considerations involved.</p>
-            <a href="index.html#contact" class="cta-button" style="padding: 16px 36px; font-size: 1.05rem;">Contact Millard Agingu &amp; Company Advocates</a>
+            <a href="/#contact" class="cta-button" style="padding: 16px 36px; font-size: 1.05rem;">Contact Millard Agingu &amp; Company Advocates</a>
         </section>
 
     </main>
+
+    <!-- Standardized Firm Footer Element -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <a href="/" class="brand-logo" style="display:block; margin-bottom:16px;">MILLARD<span>LEGAL</span></a>
+                    <p style="font-size:0.85rem; max-width:300px; line-height:1.5;">Millard Agingu &amp; Company Advocates is a premier boutique corporate legal practice providing strategic legal counsel in Kenya.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Practice Areas</h4>
+                    <ul class="footer-links">
+                        <li><a href="/services/immigration-lawyer-kenya">Corporate Immigration</a></li>
+                        <li><a href="/services/work-permits-kenya">Work Permits &amp; Pass Advisory</a></li>
+                        <li><a href="/insights">Corporate &amp; Commercial Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact Info</h4>
+                    <p style="font-size:0.85rem; margin:0 0 8px 0; color:#FFFFFF;">Nairobi, Kenya</p>
+                    <p style="font-size:0.85rem; margin:0;"><a href="mailto:info@millardlegalpractice.com" style="color:var(--color-text-muted); text-decoration:none;">info@millardlegalpractice.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; 2026 Millard Agingu &amp; Company Advocates. All rights reserved.</div>
+                <div style="display:flex; gap:16px;">
+                    <a href="/terms" style="color:var(--color-text-muted); text-decoration:none;">Terms of Use</a>
+                    <a href="/privacy" style="color:var(--color-text-muted); text-decoration:none;">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
