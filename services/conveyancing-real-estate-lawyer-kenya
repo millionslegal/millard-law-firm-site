@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Conveyancing & Real Estate Lawyers in Kenya</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Conveyancing and real estate lawyers in Kenya. Strategic legal counsel from Millard Agingu & Company Advocates for property transactions, ArdhiSasa registration, and real estate due diligence.">
+    <meta name="keywords" content="Conveyancing Lawyer Kenya, Real Estate Lawyer Nairobi, Buying Property in Kenya, ArdhiSasa account, Property Due Diligence Kenya, Millard Agingu" />
+    <link rel="canonical" href="https://millardlegalpractice.com/services/conveyancing-real-estate-lawyer-kenya" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Conveyancing & Real Estate Lawyers in Kenya | Millard Agingu" />
+    <meta property="og:description" content="Secure property transactions and strategic real estate advice in Kenya. Comprehensive conveyancing legal services for individuals, corporate developers, and foreign investors." />
+    <meta property="og:url" content="https://millardlegalpractice.com/services/conveyancing-real-estate-lawyer-kenya" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Conveyancing & Real Estate Lawyers in Kenya" />
+    <meta name="twitter:description" content="Thorough property legal due diligence, commercial leasing, and ArdhiSasa digital platform navigation under Kenyan land laws." />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&family=Cormorant+Garamond:wght=500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #07111F; }
+        .serif { font-family: 'Cormorant Garamond', serif; }
+    </style>
+
+    <!-- JSON-LD Advanced Legal & Real Estate Service Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LegalService",
+          "@id": "https://millardlegalpractice.com/#organization",
+          "name": "Millard Agingu & Company Advocates",
+          "url": "https://millardlegalpractice.com",
+          "logo": "https://millardlegalpractice.com/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://millardlegalpractice.com/services/conveyancing-real-estate-lawyer-kenya#service",
+          "serviceType": "Conveyancing and Real Estate Legal Advisory",
+          "provider": {
+            "@id": "https://millardlegalpractice.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          "description": "Comprehensive property legal due diligence, title searches, commercial lease drafting, ArdhiSasa portal consulting, and corporate real estate transactions."
+        }
+      ]
+    }
+    </script>
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+
+<body class="text-white">
+
+<!-- NAVBAR -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#07111F]/90 backdrop-blur border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-8 py-5">
+
+        <a href="../index.html" class="flex items-center gap-4">
+            <img src="https://i.imgur.com/YRpFo04.png" class="h-14 md:h-16 w-auto" alt="Logo">
+            <div>
+                <div class="text-lg font-semibold">Millard Agingu</div>
+                <div class="text-[10px] uppercase tracking-[0.25em] text-[#C8A96B]">
+                    & Company Advocates
+                </div>
+            </div>
+        </a>
+
+        <!-- DESKTOP NAV -->
+        <nav class="hidden md:flex gap-8 text-sm uppercase tracking-[0.15em] items-center">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition">Contact</a>
+        </nav>
+
+        <!-- DESKTOP CTA -->
+        <a href="../index.html#contact"
+           class="hidden md:inline-block bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition">
+            Consultation
+        </a>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button id="menu-btn" class="md:hidden text-white text-3xl focus:outline-none">
+            ☰
+        </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#07111F] border-t border-white/10">
+        <div class="flex flex-col px-6 py-6 space-y-5 text-sm uppercase tracking-[0.15em]">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition mobile-link">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition mobile-link">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">Contact</a>
+            <a href="../index.html#contact" class="bg-[#C8A96B] text-[#07111F] px-5 py-3 rounded-full text-center font-semibold mobile-link">
+                Consultation
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="relative pt-40 pb-24 px-8 text-center">
+    <div class="max-w-4xl mx-auto">
+
+        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">
+            Secure Property Transactions. Strategic Legal Advice. Practical Solutions.
+        </p>
+
+        <h1 class="serif text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight">
+            Conveyancing &amp; Real Estate Lawyers in Kenya
+        </h1>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify">
+            Whether you are buying your first home, selling commercial property, investing in Kenyan real estate, or acquiring land as a foreign investor, every property transaction carries significant legal and financial implications. Our role is to ensure that your interests are protected from the outset and that your transaction is completed efficiently, lawfully, and with minimal risk.
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify mt-4">
+            At Millard Agingu &amp; Company Advocates, we provide comprehensive conveyancing and real estate legal services for individuals, businesses, developers, lenders, diaspora clients, and foreign investors throughout Kenya.
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify mt-4">
+            Our approach extends beyond document preparation. We provide practical legal advice, conduct thorough due diligence, negotiate favourable contractual terms, coordinate completion, and guide clients through registration requirements to ensure that every transaction is legally sound.
+        </p>
+
+        <div class="mt-10">
+            <a href="../index.html#contact"
+               class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block">
+                Book a Consultation
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTENT -->
+<section class="px-8 pb-28">
+    <div class="max-w-4xl mx-auto space-y-14">
+
+        <!-- Section 1: Strategic Guidance and Litigation Prevention -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Experienced Conveyancing Lawyers in Kenya</h2>
+            <p>
+                Property transactions often involve substantial financial commitments and long-term investments. Unfortunately, many disputes arise because buyers or sellers proceed without obtaining proper legal advice or conducting adequate due diligence.
+            </p>
+            <p>
+                Issues such as defective titles, undisclosed encumbrances, fraudulent transactions, missing regulatory approvals, unpaid land rates, or poorly drafted agreements can significantly delay transactions or expose parties to costly litigation.
+            </p>
+            <p>
+                Our objective is to identify and resolve these risks before they become problems. Whether acting for a purchaser, vendor, landlord, tenant, developer, lender, or investor, we provide strategic legal guidance throughout every stage of the transaction.
+            </p>
+        </div>
+
+        <!-- Section 2: Buying Property in Kenya -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Buying Property in Kenya</h2>
+            <p>
+                Purchasing property is often one of the largest investments an individual or business will make. We assist purchasers throughout the acquisition process by ensuring that the property is legally suitable for purchase and that the transaction complies with Kenyan law.
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5">
+                <p class="font-medium text-white mb-3 text-sm">We advise on the acquisition of:</p>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-xs text-gray-400">
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Residential homes</li>
+                        <li>Apartments</li>
+                        <li>Commercial buildings</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Office premises</li>
+                        <li>Industrial property</li>
+                        <li>Agricultural land</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Mixed-use developments</li>
+                        <li>Investment property</li>
+                        <li>Development land</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: Selling Property -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Selling Property</h2>
+            <p>
+                We advise property owners throughout the sale process by preparing and reviewing transaction documents, negotiating contractual terms, coordinating completion, and ensuring that ownership is transferred efficiently and lawfully.
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5">
+                <p class="font-medium text-white mb-2 text-sm">Our transactional services include:</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Drafting Sale Agreements</li>
+                        <li>Negotiating contractual terms</li>
+                        <li>Preparing completion documents</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Coordinating discharge of existing charges</li>
+                        <li>Liaising with purchasers' advocates</li>
+                        <li>Registration of transfers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 4: Commercial Real Estate & Leases -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Commercial Real Estate Transactions</h3>
+                <p class="text-sm">
+                    We advise companies, institutional investors, developers, and commercial clients on a wide variety of commercial property transactions.
+                </p>
+                <ul class="list-disc pl-5 text-xs text-gray-400 space-y-1">
+                    <li>Commercial acquisitions and office developments</li>
+                    <li>Industrial property and investment portfolios</li>
+                    <li>Joint ventures and structural developments</li>
+                    <li>Real estate financing and commercial leasing</li>
+                </ul>
+            </div>
+
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Leases and Tenancy Agreements</h3>
+                <p class="text-sm">
+                    Whether acting for landlords or tenants, we prepare and negotiate documentation that clearly defines the rights and obligations of each party.
+                </p>
+                <ul class="list-disc pl-5 text-xs text-gray-400 space-y-1">
+                    <li>Commercial and residential leases</li>
+                    <li>Lease renewals and strategic extensions</li>
+                    <li>Lease assignments and transfers</li>
+                    <li>Licences to occupy and specialized tenancy agreements</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 5: Property Financing and Securities -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Property Financing and Securities</h2>
+            <p>
+                Where transactions involve financing, we assist borrowers and lenders with structural legal documentation relating to:
+            </p>
+            <ul class="list-disc pl-6 grid grid-cols-2 gap-1 text-xs text-gray-400">
+                <li>Legal charges</li>
+                <li>Discharges of charge</li>
+                <li>Refinancing arrangements</li>
+                <li>Mortgage documentation</li>
+                <li>Security perfection and documentation</li>
+                <li>Land registry registration requirements</li>
+            </ul>
+        </div>
+
+        <!-- Section 6: ArdhiSasa Digital Land Registry Platform -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify bg-[#0B1C33] p-8 rounded-xl border border-white/10">
+            <h2 class="serif text-3xl text-[#C8A96B]">ArdhiSasa Registration and Digital Land Services</h2>
+            <p class="text-sm">
+                Many land transactions in Kenya are now processed through the government's digital <strong>ArdhiSasa platform</strong>. We assist both local and international clients in establishing and using ArdhiSasa accounts required for property transactions within participating land registries.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 text-xs text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Registration of individual and corporate ArdhiSasa accounts</li>
+                    <li>Identity verification requirements and KYC compliance</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Linking authorised company and legal representatives</li>
+                    <li>Guidance on digital searches, property transfers, and official registrations</li>
+                </ul>
+            </div>
+            <p class="text-xs text-gray-400 italic mt-2">
+                For diaspora clients and foreign investors, early registration of the appropriate ArdhiSasa account can significantly reduce delays later in the transaction lifecycle.
+            </p>
+        </div>
+
+        <!-- Section 7: Property Structuring and Advisory -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Property Structuring and Investment Advisory</h2>
+            <p>
+                The manner in which property is acquired can have significant legal, regulatory, tax, and commercial implications. We advise clients on appropriate ownership structures, including acquisitions in an individual's name, through jointly owned structures, through Kenyan companies, or other lawful ownership arrangements. Where appropriate, we also advise foreign investors on the complex legal framework governing property ownership in Kenya.
+            </p>
+        </div>
+
+        <!-- Section 8: The Comprehensive Conveyancing Process -->
+        <div class="space-y-6 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Our Conveyancing Process</h2>
+            <p class="text-sm -mt-2">Every transaction differs, but most conveyancing matters follow several key operational stages:</p>
+
+            <div class="space-y-4">
+                <div class="p-5 rounded-xl bg-white/5 border border-white/5">
+                    <h4 class="text-white font-semibold text-base">1. Initial Consultation</h4>
+                    <p class="text-xs text-gray-400 mt-1">We begin by understanding the proposed transaction, the parties involved, financing arrangements, commercial objectives, and any potential legal concerns. Early legal advice often prevents significant problems later.</p>
+                </div>
+
+                <div class="p-5 rounded-xl bg-white/5 border border-white/5">
+                    <h4 class="text-white font-semibold text-base">2. Legal Due Diligence</h4>
+                    <p class="text-xs text-gray-400 mt-1 mb-2">Due diligence is one of the most important stages of any property transaction. Depending on the transaction, we may conduct:</p>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-1 text-[11px] text-gray-400 list-disc pl-5">
+                        <li>Official land registry searches &amp; title verification</li>
+                        <li>Review of encumbrances, cautions, and charges</li>
+                        <li>Verification of land rates, land rent, and statutory compliance</li>
+                        <li>Corporate registry registry searches for company-owned land</li>
+                        <li>Review of planning approvals and spousal consent requirements</li>
+                        <li>Succession, probate, and inheritance considerations</li>
+                    </ul>
+                </div>
+
+                <div class="p-5 rounded-xl bg-white/5 border border-white/5">
+                    <h4 class="text-white font-semibold text-base">3. Drafting and Negotiation</h4>
+                    <p class="text-xs text-gray-400 mt-1">We prepare, review, and negotiate all documentation required for completion, including Sale Agreements, Transfers, Leases, professional undertakings, completion documents, and escrow arrangements where appropriate. Every agreement is tailored to protect our client's interests.</p>
+                </div>
+
+                <div class="p-5 rounded-xl bg-white/5 border border-white/5">
+                    <h4 class="text-white font-semibold text-base">4. Completion &amp; Registration</h4>
+                    <p class="text-xs text-gray-400 mt-1">Completion involves far more than simply exchanging documents. We coordinate payment arrangements, completion statements, execution of documents, settlement of purchase monies, and payment of statutory fees. Following completion, we coordinate registration at the relevant Land Registry to ensure that legal ownership is properly transferred.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 9: Property Taxes and Foreign Ownership -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Property Taxes and Statutory Charges</h3>
+                <p class="text-sm text-gray-400">
+                    Property transactions in Kenya frequently involve statutory taxes, government fees, and regulatory charges. Depending on the nature of the transaction, these may include:
+                </p>
+                <ul class="list-disc pl-5 text-xs text-gray-400 space-y-1">
+                    <li>Stamp Duty and processing registration fees</li>
+                    <li>Capital Gains Tax (where applicable under law)</li>
+                    <li>Outstanding land rates and historical land rent payments</li>
+                </ul>
+                <p class="text-xs text-gray-500">We advise clients on the legal obligations associated with these payments to prevent transaction freezes.</p>
+            </div>
+
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Buying Property in Kenya as a Foreigner</h3>
+                <p class="text-sm text-gray-400">
+                    Kenya remains an attractive destination for international investors, expatriates, and members of the Kenyan diaspora seeking to acquire property. However, foreign ownership of land is subject to important constitutional and statutory restrictions.
+                </p>
+                <p class="text-xs text-gray-400">
+                    Foreign investors must understand the operational lines between leasehold versus freehold land ownership, corporate ownership vehicles, regulatory approvals, and specialized tax implications.
+                </p>
+                <p class="text-xs font-medium">
+                    For a detailed discussion, see our guide: <a href="../abogado-en-kenia.html" class="text-[#C8A96B] hover:underline">Buying Property in Kenya as a Foreigner</a>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 10: Why Proper Due Diligence Matters -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Why Proper Due Diligence Matters</h2>
+            <p>
+                Many property disputes arise because purchasers rely solely on information supplied by sellers or estate agents. Proper legal due diligence can identify issues such as forged title documents, fraudulent sellers, pending court disputes, double allocation, multiple competing interests, restrictions registered against title, unpaid land rates, outstanding land rent, invalid succession documentation, missing company approvals, or defective transfers.
+            </p>
+            <p class="text-sm font-semibold text-white">
+                Identifying these issues before completion is considerably less costly than attempting to resolve them after the transaction has concluded.
+            </p>
+        </div>
+
+        <!-- Section 11: Choosing Millard Agingu & Company Advocates -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify bg-[#0B1C33] p-8 rounded-xl border border-white/10">
+            <h2 class="serif text-3xl text-[#C8A96B] text-center">Why Clients Choose Our Firm</h2>
+            <p class="text-sm text-center max-w-2xl mx-auto">
+                Clients instruct our firm because we combine legal precision with practical commercial advice. We focus on protecting our clients' investments and delivering commercially sensible solutions.
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 pt-2 text-center text-xs text-[#C8A96B]">
+                <div class="p-3 bg-white/5 rounded-lg border border-white/10">Protecting investment value</div>
+                <div class="p-3 bg-white/5 rounded-lg border border-white/10">Clear client communication</div>
+                <div class="p-3 bg-white/5 rounded-lg border border-white/10">Early risk identification</div>
+                <div class="p-3 bg-white/5 rounded-lg border border-white/10">Efficient transaction closing</div>
+                <div class="p-3 bg-white/5 rounded-lg border border-white/10">Practical solutions focused</div>
+                <div class="p-3 bg-white/5 rounded-lg border border-white/10">No unnecessary complexity</div>
+            </div>
+            <p class="text-xs text-gray-400 text-center mt-4">
+                Whether acting for a first-time homebuyer, a multinational corporation, a property developer, or an overseas investor, our commitment is to deliver legal services that protect our clients' interests at every stage.
+            </p>
+        </div>
+
+        <!-- Section 12: Frequently Asked Questions -->
+        <div id="faqs" class="pt-8 space-y-6 border-t border-white/10 text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Frequently Asked Questions</h2>
+            
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h4 class="text-white font-medium">Do I need a conveyancing lawyer to buy property in Kenya?</h4>
+                    <p class="text-gray-400 text-sm mt-1">While not every property transaction legally requires an advocate, engaging an experienced conveyancing lawyer significantly reduces legal and financial risk by ensuring proper due diligence, drafting, negotiation, and registration.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Can foreigners own property in Kenya?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. Foreign nationals can acquire property in Kenya, although constitutional restrictions apply, particularly regarding agricultural and freehold land. Read our detailed guide on Buying Property in Kenya as a Foreigner.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Do I need an ArdhiSasa account?</h4>
+                    <p class="text-gray-400 text-sm mt-1">For transactions conducted within land registries operating under the ArdhiSasa platform, an ArdhiSasa account is required. We assist clients in establishing both personal and corporate ArdhiSasa accounts and provide guidance on using the platform throughout the conveyancing process.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">What taxes apply to property transactions?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Depending on the transaction, taxes and statutory charges may include Stamp Duty, Capital Gains Tax (where applicable), registration fees, land rates, and land rent. We advise clients on the legal requirements relevant to their transaction.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Can you assist Kenyan diaspora clients and foreign investors?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. We regularly advise clients based outside Kenya on property acquisitions, sales, due diligence, regulatory compliance, and transaction management. Where appropriate, we also coordinate with financial institutions, surveyors, valuers, and other professionals involved in the transaction.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 13: Related Insights -->
+        <div class="pt-8 border-t border-white/10 space-y-3 text-justify">
+            <h3 class="serif text-2xl text-[#C8A96B]">Related Insights</h3>
+            <p class="text-sm text-gray-400">Learn more about property and investment law in Kenya:</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li><a href="../abogado-en-kenia.html" class="text-[#C8A96B] hover:underline">Buying Property in Kenya as a Foreigner</a></li>
+                    <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Setting Up a Business in Kenya as a Foreigner</a></li>
+                    <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Understanding Company Registration in Kenya</a></li>
+                    <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Understanding Work Permits in Kenya</a></li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Property Due Diligence Checklist</a> <span class="text-[10px] text-gray-600">(Future)</span></li>
+                    <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Stamp Duty and Capital Gains Tax in Kenya</a> <span class="text-[10px] text-gray-600">(Future)</span></li>
+                    <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Leasehold vs Freehold Land in Kenya</a> <span class="text-[10px] text-gray-600">(Future)</span></li>
+                    <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Avoiding Property Fraud in Kenya</a> <span class="text-[10px] text-gray-600">(Future)</span></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 14: Final CTA Wrapper -->
+        <div class="bg-[#0B1C33] p-10 rounded-2xl text-center border border-white/10 text-justify">
+            <h3 class="serif text-2xl mb-4 text-[#C8A96B] text-center">Speak to a Conveyancing Lawyer in Kenya</h3>
+            <p class="text-gray-300 mb-4 text-sm">
+                Whether you are buying your first home, selling commercial property, investing in Kenyan real estate, acquiring land as a foreign investor, or structuring a complex property transaction, we provide clear legal advice and practical solutions tailored to your objectives.
+            </p>
+            <p class="text-gray-400 mb-6 text-xs text-center font-medium">
+                Contact <strong>Millard Agingu &amp; Company Advocates</strong> today to discuss your property transaction with an experienced conveyancing and real estate lawyer in Kenya.
+            </p>
+            <div class="text-center">
+                <a href="../index.html#contact"
+                   class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block text-sm">
+                    Contact Our Real Estate Lawyers
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-white/10 py-8 text-gray-500 text-sm bg-[#07111F]">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div>
+            © 2026 Millard Agingu &amp; Company Advocates
+        </div>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-6 text-gray-400">
+            <a href="privacy-policy.html" class="hover:text-[#C8A96B] transition">Privacy Policy</a>
+            <a href="terms-of-use.html" class="hover:text-[#C8A96B] transition">Terms of Use</a>
+            <a href="disclaimer.html" class="hover:text-[#C8A96B] transition">Disclaimer</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+</script>
+</body>
+</html>
