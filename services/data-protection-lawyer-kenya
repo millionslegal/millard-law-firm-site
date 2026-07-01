@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Data Protection & GDPR Compliance Lawyers in Kenya</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Data protection and GDPR compliance lawyers in Kenya. Strategic legal counsel from Millard Agingu & Company Advocates for the Data Protection Act 2019, DPIAs, and cross-border transfers.">
+    <meta name="keywords" content="Data Protection Lawyer Kenya, GDPR Compliance Kenya, Data Protection Compliance, Privacy Policy, Cross-Border Data Transfers, Data Protection Act 2019, ODPC Nairobi" />
+    <link rel="canonical" href="https://millardlegalpractice.com/services/data-protection-lawyer-kenya" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Data Protection & GDPR Compliance Lawyers in Kenya | Millard Agingu" />
+    <meta property="og:description" content="Strategic legal advice on data protection and privacy compliance in Kenya under the Data Protection Act, 2019 and internationally recognized standards like GDPR." />
+    <meta property="og:url" content="https://millardlegalpractice.com/services/data-protection-lawyer-kenya" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Data Protection & GDPR Compliance Lawyers in Kenya" />
+    <meta name="twitter:description" content="Design practical governance frameworks that reduce regulatory risk and align with the ODPC and international compliance frameworks." />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&family=Cormorant+Garamond:wght=500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #07111F; }
+        .serif { font-family: 'Cormorant Garamond', serif; }
+    </style>
+
+    <!-- JSON-LD Advanced Legal & Specific Service Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LegalService",
+          "@id": "https://millardlegalpractice.com/#organization",
+          "name": "Millard Agingu & Company Advocates",
+          "url": "https://millardlegalpractice.com",
+          "logo": "https://millardlegalpractice.com/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://millardlegalpractice.com/services/data-protection-lawyer-kenya#service",
+          "serviceType": "Data Protection and GDPR Compliance Legal Advisory",
+          "provider": {
+            "@id": "https://millardlegalpractice.com/#organization"
+          },
+          "areaServed": [
+            {
+              "@type": "Country",
+              "name": "Kenya"
+            },
+            {
+              "@type": "Country",
+              "name": "European Union"
+            }
+          ],
+          "description": "Strategic data protection audits, GDPR readiness assessments, cross-border data transfer structuring, and corporate compliance with the Data Protection Act, 2019."
+        }
+      ]
+    }
+    </script>
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+
+<body class="text-white">
+
+<!-- NAVBAR -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#07111F]/90 backdrop-blur border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-8 py-5">
+
+        <a href="../index.html" class="flex items-center gap-4">
+            <img src="https://i.imgur.com/YRpFo04.png" class="h-14 md:h-16 w-auto" alt="Logo">
+            <div>
+                <div class="text-lg font-semibold">Millard Agingu</div>
+                <div class="text-[10px] uppercase tracking-[0.25em] text-[#C8A96B]">
+                    & Company Advocates
+                </div>
+            </div>
+        </a>
+
+        <!-- DESKTOP NAV -->
+        <nav class="hidden md:flex gap-8 text-sm uppercase tracking-[0.15em] items-center">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition">Contact</a>
+        </nav>
+
+        <!-- DESKTOP CTA -->
+        <a href="../index.html#contact"
+           class="hidden md:inline-block bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition">
+            Consultation
+        </a>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button id="menu-btn" class="md:hidden text-white text-3xl focus:outline-none">
+            ☰
+        </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#07111F] border-t border-white/10">
+        <div class="flex flex-col px-6 py-6 space-y-5 text-sm uppercase tracking-[0.15em]">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition mobile-link">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition mobile-link">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">Contact</a>
+            <a href="../index.html#contact" class="bg-[#C8A96B] text-[#07111F] px-5 py-3 rounded-full text-center font-semibold mobile-link">
+                Consultation
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="relative pt-40 pb-24 px-8 text-center">
+    <div class="max-w-4xl mx-auto">
+
+        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">
+            Strategic Data Protection, Privacy &amp; Regulatory Compliance Advisory
+        </p>
+
+        <h1 class="serif text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight">
+            Data Protection &amp; GDPR Compliance Lawyers in Kenya
+        </h1>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify">
+            In today's digital economy, almost every organisation collects, stores, uses, or transfers personal information. Whether you are a technology company, multinational corporation, financial institution, healthcare provider, NGO, online business, or professional services firm, compliance with privacy laws has become a fundamental legal and commercial requirement.
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify mt-4">
+            At Millard Agingu &amp; Company Advocates, we provide strategic legal advice on data protection and privacy compliance in Kenya, helping organisations develop practical governance frameworks that meet both the requirements of the Data Protection Act, 2019 and internationally recognised privacy standards, including the General Data Protection Regulation (GDPR).
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify mt-4">
+            Our approach goes beyond preparing legal documents. We work with organisations to design privacy programmes that reduce regulatory risk, strengthen stakeholder confidence, and support sustainable business growth.
+        </p>
+
+        <div class="mt-10">
+            <a href="../index.html#contact"
+               class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block">
+                Speak to a Data Protection Lawyer
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTENT -->
+<section class="px-8 pb-28">
+    <div class="max-w-4xl mx-auto space-y-14">
+
+        <!-- Section 1: Governance & Risks -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Data Protection Compliance is More Than a Legal Requirement</h2>
+            <p>
+                Data protection is no longer simply a matter of regulatory compliance. It is an essential aspect of corporate governance, risk management, customer trust, and international business operations.
+            </p>
+            <p>
+                Businesses operating across multiple jurisdictions increasingly face overlapping privacy obligations. Kenyan organisations may also be required to comply with foreign privacy laws where they process the personal data of individuals located outside Kenya, particularly within the European Union.
+            </p>
+            <p>
+                Failure to comply with applicable privacy laws may expose an organisation to:
+            </p>
+            <ul class="list-disc pl-6 space-y-1 text-sm text-gray-400">
+                <li>Regulatory investigations and enforcement action;</li>
+                <li>Administrative penalties;</li>
+                <li>Contractual disputes with customers or business partners;</li>
+                <li>Reputational damage;</li>
+                <li>Loss of consumer confidence;</li>
+                <li>Business interruption following data breaches or security incidents.</li>
+            </ul>
+            <p>
+                Our role is to help organisations proactively identify legal risks and develop compliance frameworks that are both practical and commercially sustainable.
+            </p>
+        </div>
+
+        <!-- Section 2: Kenya Data Protection Act Compliance -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Kenya Data Protection Act Compliance</h2>
+            <p>
+                We advise organisations on complying with the requirements of the Data Protection Act, 2019, its Regulations, and guidance issued by the Office of the Data Protection Commissioner (ODPC).
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5">
+                <p class="font-medium text-white mb-2 text-sm">Our services include:</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Data protection compliance assessments;</li>
+                        <li>Regulatory compliance reviews;</li>
+                        <li>Advice on lawful processing of personal data;</li>
+                        <li>Privacy governance frameworks;</li>
+                        <li>Data retention and record management policies;</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Internal compliance procedures;</li>
+                        <li>Data subject rights compliance;</li>
+                        <li>Employee privacy compliance;</li>
+                        <li>Customer privacy compliance;</li>
+                        <li>Compliance advisory for new products and services.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3: GDPR Compliance Advisory -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">GDPR Compliance Advisory</h2>
+            <p>
+                Many Kenyan organisations process personal data relating to individuals located within the European Union. Where applicable, we advise clients on compliance with the General Data Protection Regulation (GDPR).
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5">
+                <p class="font-medium text-white mb-2 text-sm">We provide advisory services regarding:</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>GDPR readiness assessments;</li>
+                        <li>Lawful basis for processing;</li>
+                        <li>Controller and processor obligations;</li>
+                        <li>Privacy by Design and Privacy by Default principles;</li>
+                        <li>Data Protection Impact Assessments (DPIAs);</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Records of Processing Activities (RoPA);</li>
+                        <li>Cross-border data transfers;</li>
+                        <li>International data processing arrangements;</li>
+                        <li>Vendor and processor agreements;</li>
+                        <li>Privacy notices and transparency obligations.</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-sm text-gray-400">
+                Our objective is to help organisations establish privacy programmes capable of meeting internationally recognised standards while remaining practical to implement.
+            </p>
+        </div>
+
+        <!-- Section 4: Privacy Governance Programmes -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Privacy Governance Programmes</h2>
+            <p>
+                Effective compliance requires more than a collection of policies. We help organisations develop comprehensive privacy governance programmes that integrate legal compliance into everyday business operations.
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5">
+                <p class="font-medium text-white mb-2 text-sm">Depending on the organisation's needs, we assist with developing:</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Enterprise privacy frameworks;</li>
+                        <li>Data protection policies;</li>
+                        <li>Information governance policies;</li>
+                        <li>Employee privacy policies;</li>
+                        <li>Data classification policies;</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Data retention schedules;</li>
+                        <li>Acceptable use policies;</li>
+                        <li>Incident response procedures;</li>
+                        <li>Privacy governance structures;</li>
+                        <li>Compliance reporting frameworks.</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="text-sm text-gray-400">
+                Our programmes are designed to support long-term organisational compliance rather than one-off regulatory exercises.
+            </p>
+        </div>
+
+        <!-- Section 5: Legal Documentation -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Privacy Policies and Legal Documentation</h2>
+            <p>
+                We prepare and review privacy documentation tailored to the operational needs of each organisation. This includes:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm bg-white/5 p-6 rounded-xl border border-white/5 text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Website Privacy Policies;</li>
+                    <li>Cookie Policies;</li>
+                    <li>Employee Privacy Notices;</li>
+                    <li>Client Privacy Notices;</li>
+                    <li>Consent Forms;</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Data Processing Agreements;</li>
+                    <li>Data Sharing Agreements;</li>
+                    <li>Confidentiality Agreements;</li>
+                    <li>Standard Contractual Clauses (where appropriate);</li>
+                    <li>Internal compliance manuals.</li>
+                </ul>
+            </div>
+            <p class="text-xs italic text-gray-500">
+                Each document is prepared to reflect both applicable legal requirements and the practical realities of the organisation's operations.
+            </p>
+        </div>
+
+        <!-- Section 6: Audits & Cross-Border -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Data Protection Audits</h3>
+                <p class="text-sm">
+                    We conduct legal reviews of existing privacy programmes to identify regulatory risks before they become enforcement issues. Our audits may include reviews of website compliance, human resources data processing, customer information management, marketing practices, and cloud computing arrangements.
+                </p>
+                <p class="text-xs text-gray-400">
+                    Following the audit, we provide practical recommendations to strengthen compliance and improve organisational governance.
+                </p>
+            </div>
+
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Cross-Border Data Transfers</h3>
+                <p class="text-sm">
+                    Modern organisations frequently transfer personal information across national borders through cloud platforms, international service providers, outsourcing arrangements, and multinational corporate structures.
+                </p>
+                <p class="text-sm">
+                    We advise clients on the legal requirements governing international transfers of personal data and assist in implementing appropriate safeguards consistent with Kenyan law and internationally recognised privacy standards.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 7: Regulatory Support & Industries -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Regulatory Advisory and Compliance Support</h2>
+            <p>
+                We assist organisations in responding to regulatory requirements throughout the lifecycle of their privacy compliance programmes. Our advisory services include compliance strategy, regulatory correspondence, data protection risk assessments, internal investigations, responses to data subject complaints, incident response planning, data breach advisory, and regulatory engagement with the Office of the Data Protection Commissioner.
+            </p>
+
+            <h3 class="serif text-2xl text-[#C8A96B] pt-4">Industries We Advise</h3>
+            <p class="text-sm text-gray-400">
+                We provide privacy and data protection advisory services to organisations across numerous sectors, including:
+            </p>
+            <ul class="list-disc pl-6 grid grid-cols-2 md:grid-cols-3 gap-1 text-xs text-gray-400">
+                <li>Technology and Software Companies;</li>
+                <li>Financial Services;</li>
+                <li>FinTech;</li>
+                <li>Healthcare Providers;</li>
+                <li>Insurance;</li>
+                <li>Professional Services;</li>
+                <li>Manufacturing;</li>
+                <li>Hospitality;</li>
+                <li>Real Estate;</li>
+                <li>Telecommunications;</li>
+                <li>Educational Institutions;</li>
+                <li>E-commerce Businesses;</li>
+                <li>NGOs and International Organisations;</li>
+                <li>Foreign Investors.</li>
+            </ul>
+        </div>
+
+        <!-- Section 8: Choosing the Firm -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify bg-[#0B1C33] p-8 rounded-xl border border-white/10">
+            <h2 class="serif text-3xl text-[#C8A96B] text-center">Why Organisations Choose Our Firm</h2>
+            <p class="text-sm text-center max-w-2xl mx-auto">
+                Data protection compliance should support business objectives rather than obstruct them. We work closely with our clients to develop privacy frameworks that are legally robust, commercially practical, and capable of adapting to evolving regulatory requirements.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4 pt-4 text-xs font-semibold text-[#C8A96B]">
+                <span class="px-3 py-1 bg-white/5 rounded-full border border-white/10">Practical legal advice</span>
+                <span class="px-3 py-1 bg-white/5 rounded-full border border-white/10">Commercial awareness</span>
+                <span class="px-3 py-1 bg-white/5 rounded-full border border-white/10">International privacy standards</span>
+                <span class="px-3 py-1 bg-white/5 rounded-full border border-white/10">Kenyan regulatory expertise</span>
+                <span class="px-3 py-1 bg-white/5 rounded-full border border-white/10">Risk-based compliance strategies</span>
+            </div>
+            <p class="text-xs text-gray-400 text-center mt-4">
+                Whether advising a start-up entering the Kenyan market or an established multinational operating across multiple jurisdictions, we focus on building privacy programmes that remain effective as organisations grow.
+            </p>
+        </div>
+
+        <!-- Section 9: FAQs -->
+        <div id="faqs" class="pt-8 space-y-6 border-t border-white/10 text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Frequently Asked Questions</h2>
+            
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h4 class="text-white font-medium">Does the GDPR apply to businesses in Kenya?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. Depending on the nature of the organisation's activities, the GDPR may apply to Kenyan businesses that offer goods or services to individuals located within the European Union or monitor their behaviour. We advise clients on determining whether the GDPR applies to their operations and how to achieve compliance.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Does every organisation in Kenya need a Privacy Policy?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Many organisations that collect personal information should maintain an appropriate Privacy Policy explaining how personal data is collected, used, stored, shared, and protected. The specific requirements depend on the nature of the organisation's activities and applicable legal obligations.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Can personal data be transferred outside Kenya?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. Cross-border transfers are permitted subject to the requirements of the Data Protection Act, 2019 and applicable regulations. Appropriate safeguards should be implemented before personal information is transferred internationally.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">What should an organisation do after a data breach?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Prompt legal assessment is essential. Organisations should investigate the incident, preserve relevant evidence, assess legal reporting obligations, implement remedial measures, and consider whether notification to affected individuals or regulators is required.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Do foreign companies operating in Kenya need to comply with the Data Protection Act?</h4>
+                    <p class="text-gray-400 text-sm mt-1">In many cases, yes. Organisations processing personal data in connection with activities in Kenya may be subject to the requirements of the Data Protection Act, 2019, regardless of where the organisation is incorporated.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 10: Related Insights -->
+        <div class="pt-8 border-t border-white/10 space-y-3 text-justify">
+            <h3 class="serif text-2xl text-[#C8A96B]">Related Insights</h3>
+            <p class="text-sm text-gray-400">You may also find these resources helpful:</p>
+            <ul class="list-disc pl-6 text-xs space-y-1 text-gray-400">
+                <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Data Protection Compliance in Kenya</a></li>
+                <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Cross-Border Data Transfers under Kenyan Law</a></li>
+                <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Understanding Privacy Policies for Businesses</a></li>
+                <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">Your Rights under Kenya's Data Protection Act</a></li>
+                <li><a href="../insights.html" class="text-[#C8A96B] hover:underline">GDPR and Kenyan Organisations</a></li>
+            </ul>
+        </div>
+
+        <!-- Section 11: Final CTA Wrapper -->
+        <div class="bg-[#0B1C33] p-10 rounded-2xl text-center border border-white/10 text-justify">
+            <h3 class="serif text-2xl mb-4 text-[#C8A96B] text-center">Build a Privacy Programme That Meets International Standards</h3>
+            <p class="text-gray-300 mb-4 text-sm">
+                Privacy compliance is no longer simply about avoiding regulatory penalties. It is about demonstrating accountability, protecting stakeholder trust, and supporting responsible business growth.
+            </p>
+            <p class="text-gray-300 mb-4 text-sm">
+                Whether your organisation is establishing operations in Kenya, expanding internationally, reviewing existing compliance measures, or building a new privacy governance programme from the ground up, we provide practical legal advice tailored to your operational and regulatory environment.
+            </p>
+            <p class="text-gray-400 mb-6 text-xs text-center font-medium">
+                Contact our Data Protection &amp; GDPR Compliance Lawyers in Kenya to discuss your organisation's privacy and data protection requirements.
+            </p>
+            <div class="text-center">
+                <a href="../index.html#contact"
+                   class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block text-sm">
+                    Contact Millard Agingu &amp; Company Advocates
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-white/10 py-8 text-gray-500 text-sm bg-[#07111F]">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div>
+            © 2026 Millard Agingu &amp; Company Advocates
+        </div>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-6 text-gray-400">
+            <a href="privacy-policy.html" class="hover:text-[#C8A96B] transition">Privacy Policy</a>
+            <a href="terms-of-use.html" class="hover:text-[#C8A96B] transition">Terms of Use</a>
+            <a href="disclaimer.html" class="hover:text-[#C8A96B] transition">Disclaimer</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+</script>
+</body>
+</html>
