@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Family Lawyers in Kenya | Probate, Succession & Succession Lawyers | Millard Agingu</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Experienced family lawyers in Kenya. Strategic legal counsel from Millard Agingu & Company Advocates for divorce, child custody, matrimonial property division, probate, and cross-border family law.">
+    <meta name="keywords" content="Family Lawyer Kenya, Succession Lawyer Nairobi, Probate Lawyer Kenya, Divorce Lawyer Nairobi, Matrimonial Property Kenya, Child Custody Lawyer Kenya, Millard Agingu" />
+    <link rel="canonical" href="https://millardlegalpractice.com/services/family-lawyer-kenya" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Family & Succession Lawyers in Kenya | Millard Agingu" />
+    <meta property="og:description" content="Trusted legal advice for families, individuals, and cross-border family matters in Kenya. Specialised counsel for estate planning, matrimonial property, and probate administration." />
+    <meta property="og:url" content="https://millardlegalpractice.com/services/family-lawyer-kenya" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Family &amp; Succession Lawyers in Kenya" />
+    <meta name="twitter:description" content="Handling sensitive domestic relations, estate preservation, and cross-border succession disputes under Kenyan family laws with absolute discretion." />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&family=Cormorant+Garamond:wght=500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #07111F; }
+        .serif { font-family: 'Cormorant Garamond', serif; }
+    </style>
+
+    <!-- JSON-LD Advanced Family Law & Succession Legal Service Structured Data Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LegalService",
+          "@id": "https://millardlegalpractice.com/#organization",
+          "name": "Millard Agingu & Company Advocates",
+          "url": "https://millardlegalpractice.com",
+          "logo": "https://millardlegalpractice.com/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://millardlegalpractice.com/services/family-lawyer-kenya#service",
+          "serviceType": "Family Law, Probate, and Estate Succession Advisory",
+          "provider": {
+            "@id": "https://millardlegalpractice.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          "description": "Comprehensive domestic relations legal counsel, prenuptial agreements, matrimonial property distribution, child maintenance, probate administration, Kadhi's court representation, and cross-border estate succession."
+        }
+      ]
+    }
+    </script>
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+
+<body class="text-white">
+
+<!-- NAVBAR -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#07111F]/90 backdrop-blur border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-8 py-5">
+
+        <a href="../index.html" class="flex items-center gap-4">
+            <img src="https://i.imgur.com/YRpFo04.png" class="h-14 md:h-16 w-auto" alt="Logo">
+            <div>
+                <div class="text-lg font-semibold">Millard Agingu</div>
+                <div class="text-[10px] uppercase tracking-[0.25em] text-[#C8A96B]">
+                    & Company Advocates
+                </div>
+            </div>
+        </a>
+
+        <!-- DESKTOP NAV -->
+        <nav class="hidden md:flex gap-8 text-sm uppercase tracking-[0.15em] items-center">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition">Contact</a>
+        </nav>
+
+        <!-- DESKTOP CTA -->
+        <a href="../index.html#contact"
+           class="hidden md:inline-block bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition">
+            Consultation
+        </a>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button id="menu-btn" class="md:hidden text-white text-3xl focus:outline-none">
+            ☰
+        </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#07111F] border-t border-white/10">
+        <div class="flex flex-col px-6 py-6 space-y-5 text-sm uppercase tracking-[0.15em]">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition mobile-link">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition mobile-link">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">Contact</a>
+            <a href="../index.html#contact" class="bg-[#C8A96B] text-[#07111F] px-5 py-3 rounded-full text-center font-semibold mobile-link">
+                Consultation
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="relative pt-40 pb-24 px-8 text-center">
+    <div class="max-w-4xl mx-auto">
+
+        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">
+            Trusted Legal Advice for Families, Individuals and Cross-Border Family Matters
+        </p>
+
+        <h1 class="serif text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight">
+            Family Lawyers in Kenya
+        </h1>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify">
+            Family law involves some of life's most significant personal and financial decisions. Whether you are planning a marriage, protecting family assets, preparing your estate, resolving disputes concerning children, or administering the estate of a loved one, obtaining sound legal advice can provide certainty and help safeguard your rights.
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify mt-4">
+            At Millard Agingu &amp; Company Advocates, we advise individuals, families, expatriates, and foreign nationals on a broad range of family law matters. We combine practical legal advice with a sensitive appreciation of the personal circumstances often involved in family matters, seeking practical and lasting solutions while protecting our clients' legal interests.
+        </p>
+
+        <div class="mt-10">
+            <a href="../index.html#contact"
+               class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block">
+                Speak to a Family Lawyer
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTENT -->
+<section class="px-8 pb-28">
+    <div class="max-w-4xl mx-auto space-y-14">
+
+        <!-- Section 1: Intro Framework -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Comprehensive Family Law Services in Kenya</h2>
+            <p>
+                We provide legal advice and representation across the full spectrum of family law, estate planning, and succession matters. Our structural focus is on reducing the stress and friction out of sensitive transitions, building clear options that safeguard intergenerational assets and protect relational integrity.
+            </p>
+        </div>
+
+        <!-- Section 2: Marriage & Family Advisory -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Marriage &amp; Family Advisory</h2>
+            <p>
+                Marriage creates important legal rights and obligations that extend beyond the wedding ceremony itself. Whether you are marrying in Kenya, entering an international marriage, or seeking advice on your legal rights and obligations, obtaining legal guidance at an early stage can help avoid uncertainty later.
+            </p>
+            
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5">
+                <p class="font-medium text-white mb-3 text-sm">We advise clients on:</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Civil marriages</li>
+                        <li>Christian marriages</li>
+                        <li>Customary marriages</li>
+                        <li>Hindu marriages</li>
+                        <li>Islamic (Muslim) marriages</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Registration of marriages</li>
+                        <li>Recognition of foreign marriages</li>
+                        <li>Marriage between Kenyan citizens and foreign nationals</li>
+                        <li>Legal requirements for marriage in Kenya</li>
+                        <li>Matrimonial rights and obligations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p>
+                We regularly advise both Kenyan citizens and foreign nationals on the legal implications of international marriages, including recognition of marriages, immigration considerations, and property rights.
+            </p>
+        </div>
+
+        <!-- Section 3: Prenuptial & Postnuptial Agreements -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Prenuptial &amp; Postnuptial Agreements</h2>
+            <p>
+                Every family has unique financial circumstances. Couples may wish to define how certain assets, businesses, investments, or inherited property will be treated during the marriage or in the unlikely event that the marriage ends.
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5 text-xs text-gray-400">
+                <p class="font-medium text-white mb-2 text-sm">We advise on and prepare:</p>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-1 list-disc pl-5">
+                    <li>Prenuptial Agreements</li>
+                    <li>Postnuptial Agreements</li>
+                    <li>Family wealth planning arrangements</li>
+                    <li>Asset protection strategies</li>
+                    <li>Agreements tailored to business owners, professionals, investors, and international families</li>
+                </ul>
+            </div>
+            <p class="text-xs text-gray-500 italic">
+                Properly drafted agreements can reduce uncertainty while protecting the legitimate interests of both parties.
+            </p>
+        </div>
+
+        <!-- Section 4: Divorce & Judicial Separation -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Divorce &amp; Judicial Separation</h2>
+            <p>
+                The breakdown of a marriage can present significant legal and personal challenges. We strive to resolve family disputes efficiently while protecting our clients' rights and long-term interests.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs bg-white/5 p-6 rounded-xl border border-white/5 text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Divorce proceedings</li>
+                    <li>Judicial separation</li>
+                    <li>Annulment of marriage where applicable</li>
+                    <li>Negotiated settlements</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Mediation and alternative dispute resolution</li>
+                    <li>Matrimonial property disputes</li>
+                    <li>Maintenance claims</li>
+                    <li>Representation before the Family Division of the High Court and other competent courts</li>
+                </ul>
+            </div>
+            <p>
+                Where appropriate, we encourage negotiated settlements that minimise conflict and facilitate practical long-term arrangements for all parties involved.
+            </p>
+        </div>
+
+        <!-- Section 5: Muslim Family Law -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify bg-[#0B1C33] p-8 rounded-xl border border-white/10">
+            <h2 class="serif text-3xl text-[#C8A96B]">Muslim Family Law</h2>
+            <p class="text-sm">
+                We advise Muslim clients on family matters governed by Islamic law and represent clients in appropriate proceedings before the Kadhi's Courts and other competent courts where jurisdiction permits.
+            </p>
+            <p class="text-sm">
+                Our services include advice and representation concerning:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-xs text-gray-400 pt-2">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Islamic marriage</li>
+                    <li>Divorce under Sharia</li>
+                    <li>Maintenance obligations</li>
+                    <li>Child custody under Muslim law</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Succession and inheritance under Islamic law</li>
+                    <li>Estate administration</li>
+                    <li>Related family law matters affecting Muslim families</li>
+                </ul>
+            </div>
+            <p class="text-xs text-gray-500 italic mt-2">
+                We appreciate that Muslim family law operates within a distinct legal framework and provide advice that respects both Kenyan law and applicable Islamic legal principles.
+            </p>
+        </div>
+
+        <!-- Section 6: Child Custody & Children's Matters -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Child Custody &amp; Children's Matters</h2>
+            <p>
+                The welfare and best interests of the child remain the primary consideration in all matters affecting children. We advise parents, guardians, and caregivers on building sustainable structural solutions.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs bg-white/5 p-6 rounded-xl border border-white/5 text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Child custody</li>
+                    <li>Parenting arrangements</li>
+                    <li>Access and visitation rights</li>
+                    <li>Child maintenance</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Guardianship</li>
+                    <li>Adoption procedures where applicable</li>
+                    <li>Relocation of children</li>
+                    <li>Other disputes affecting children</li>
+                </ul>
+            </div>
+            <p>
+                We aim to help families reach practical arrangements wherever possible while ensuring that children's welfare remains paramount.
+            </p>
+        </div>
+
+        <!-- Section 7: Matrimonial Property -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Matrimonial Property</h2>
+            <p>
+                Determining ownership and division of matrimonial property can become complex, particularly where spouses own businesses, land, investments, or jointly acquired assets.
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5 text-xs text-gray-400">
+                <p class="font-medium text-white mb-2 text-sm">We advise clients regarding:</p>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-1 list-disc pl-5">
+                    <li>Identification of matrimonial property</li>
+                    <li>Division of matrimonial assets</li>
+                    <li>Property ownership disputes</li>
+                    <li>Business interests</li>
+                    <li>Financial and non-financial contributions</li>
+                    <li>Settlement negotiations and court proceedings</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 8: Probate, Succession & Estate Administration -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Probate, Succession &amp; Estate Administration</h2>
+            <p>
+                The administration of a deceased person's estate involves important legal procedures that must be completed correctly to ensure lawful distribution of assets.
+            </p>
+            <p>
+                We assist families, executors, administrators, beneficiaries, and trustees with:
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-xs bg-white/5 p-6 rounded-xl border border-white/5 text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Probate applications</li>
+                    <li>Letters of Administration</li>
+                    <li>Confirmation of Grants</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Estate administration</li>
+                    <li>Distribution of estates</li>
+                    <li>Succession disputes</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Intestate succession</li>
+                    <li>Foreign asset administration</li>
+                    <li>Court representations</li>
+                </ul>
+            </div>
+            <p class="text-xs text-gray-400">
+                We work to ensure that estates are administered efficiently while minimising unnecessary delays and disputes among beneficiaries.
+            </p>
+        </div>
+
+        <!-- Section 9: Estate Planning & Wealth Preservation -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Estate Planning &amp; Wealth Preservation</h2>
+            <p>
+                Effective estate planning allows individuals to protect their families, preserve wealth, and ensure that their wishes are respected.
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5 text-xs text-gray-400">
+                <p class="font-medium text-white mb-2 text-sm">Our estate planning services include:</p>
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-1 list-disc pl-5">
+                    <li>Drafting Wills</li>
+                    <li>Testamentary and Family trusts</li>
+                    <li>Succession and Business succession planning</li>
+                    <li>Asset protection strategies</li>
+                    <li>Guardianship planning for minor children</li>
+                    <li>General wealth preservation advice</li>
+                </ul>
+            </div>
+            <p class="text-xs text-gray-500 italic">
+                Proper estate planning can significantly reduce uncertainty, family disputes, and delays in the administration of estates.
+            </p>
+        </div>
+
+        <!-- Section 10: Powers of Attorney & ADR Frameworks -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Powers of Attorney</h3>
+                <p class="text-xs text-gray-400">
+                    Circumstances may arise where an individual wishes another person to manage financial, legal, or personal affairs on their behalf. We prepare and advise on Powers of Attorney for individuals, families, expatriates, business owners, and elderly persons requiring trusted legal authority arrangements.
+                </p>
+            </div>
+
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Alternative Dispute Resolution</h3>
+                <p class="text-xs text-gray-400">
+                    Court proceedings are not always the most appropriate way to resolve family disputes. Where appropriate, we assist clients in resolving disputes through mediation, negotiated settlements, and collaborative discussions. These approaches often preserve relationships and reduce costs.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 11: Cross-Border Family Law -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify bg-[#0B1C33] p-8 rounded-xl border border-white/10">
+            <h2 class="serif text-3xl text-[#C8A96B]">Cross-Border Family Law</h2>
+            <p class="text-sm">
+                Increasing international mobility has resulted in more families with legal connections to multiple jurisdictions. We advise clients on cross-border family law issues including:
+            </p>
+            <ul class="list-disc pl-6 text-xs space-y-1 text-gray-400">
+                <li>Marriage between Kenyan citizens and foreign nationals</li>
+                <li>Recognition of foreign marriages and foreign divorce decrees</li>
+                <li>Cross-border succession matters and international inheritance issues</li>
+                <li>Estates involving overseas assets and family law issues affecting expatriates residing in Kenya</li>
+            </ul>
+        </div>
+
+        <!-- Section 12: Why Choose Us -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B] text-center">Why Families Choose Our Firm</h2>
+            <p class="text-sm text-center max-w-2xl mx-auto">
+                Family law requires more than legal knowledge—it requires careful judgment, discretion, and an appreciation of the personal circumstances affecting each client. We provide practical legal advice that balances legal rights with realistic solutions, always seeking to protect our clients' long-term interests while handling sensitive matters with professionalism and respect.
+            </p>
+            <p class="text-xs text-gray-400 text-center mt-2">
+                Whether assisting with estate planning, representing clients in family disputes, or advising international families, we remain committed to delivering clear, strategic, and dependable legal guidance.
+            </p>
+        </div>
+
+        <!-- Section 13: Frequently Asked Questions -->
+        <div id="faqs" class="pt-8 space-y-6 border-t border-white/10 text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Frequently Asked Questions</h2>
+            
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h4 class="text-white font-medium">Can a foreign national marry in Kenya?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. Foreign nationals may marry in Kenya provided they satisfy the legal requirements applicable to the type of marriage being celebrated. We advise clients on documentation, registration, and recognition of international marriages.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Do I need a Will?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Although not legally mandatory, preparing a Will allows you to determine how your estate will be distributed and may significantly reduce disputes among beneficiaries after your death.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">What happens if someone dies without a Will?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Where a person dies intestate, their estate is distributed in accordance with the applicable provisions of Kenyan succession law or, where applicable, Islamic law.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Can Muslim succession matters be handled under Islamic law?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. In appropriate cases, succession and other family matters involving Muslims may be determined in accordance with Islamic law through the Kadhi's Courts, subject to the Constitution and applicable legislation.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">How is matrimonial property divided after divorce?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Division depends on the particular facts of each case, including the nature of the property and the contributions made by each spouse. Both financial and non-financial contributions may be considered.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Can family disputes be resolved without going to court?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. Many family disputes can be resolved through mediation or negotiated settlement, which may preserve family relationships and reduce legal costs.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 14: Final CTA Block Wrapper -->
+        <div class="bg-[#0B1C33] p-10 rounded-2xl text-center border border-white/10 text-justify">
+            <h3 class="serif text-2xl mb-4 text-[#C8A96B] text-center">Protect What Matters Most</h3>
+            <p class="text-gray-300 mb-4 text-sm">
+                Whether you are planning your family's future, navigating a marriage or separation, administering the estate of a loved one, or seeking advice on children's matters, experienced legal guidance can help you make informed decisions with confidence.
+            </p>
+            <p class="text-gray-400 mb-6 text-xs text-center font-medium">
+                Contact <strong>Millard Agingu &amp; Company Advocates</strong> to speak with a family lawyer in Kenya about your family law, succession, estate planning, or matrimonial matters.
+            </p>
+            <div class="text-center">
+                <a href="../index.html#contact"
+                   class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block text-sm">
+                    Contact Our Family Lawyers
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-white/10 py-8 text-gray-500 text-sm bg-[#07111F]">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div>
+            © 2026 Millard Agingu &amp; Company Advocates
+        </div>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-6 text-gray-400">
+            <a href="privacy-policy.html" class="hover:text-[#C8A96B] transition">Privacy Policy</a>
+            <a href="terms-of-use.html" class="hover:text-[#C8A96B] transition">Terms of Use</a>
+            <a href="disclaimer.html" class="hover:text-[#C8A96B] transition">Disclaimer</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+</script>
+</body>
+</html>
