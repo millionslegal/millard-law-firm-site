@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Corporate & Commercial Lawyers in Kenya | Millard Agingu</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Corporate and commercial lawyers in Kenya. Strategic legal counsel from Millard Agingu & Company Advocates for business formation, foreign investment, and mergers & acquisitions.">
+    <meta name="keywords" content="Corporate Lawyer Kenya, Commercial Lawyer Nairobi, Business Registration Kenya, Foreign Investment Kenya, Mergers and Acquisitions Kenya, Millard Agingu" />
+    <link rel="canonical" href="https://millardlegalpractice.com/services/corporate-commercial-lawyer-kenya" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Corporate & Commercial Lawyers in Kenya | Millard Agingu & Company Advocates" />
+    <meta property="og:description" content="Strategic legal counsel for businesses, foreign investors, and growing enterprises in Kenya. Expert guidance on corporate restructuring, governance, and commercial agreements." />
+    <meta property="og:url" content="https://millardlegalpractice.com/services/corporate-commercial-lawyer-kenya" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Corporate & Commercial Lawyers in Kenya" />
+    <meta name="twitter:description" content="Providing practical, commercially-focused legal strategies to facilitate cross-border trade, regulatory compliance, and market entry in East Africa." />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght=300;400;500;600;700&family=Cormorant+Garamond:wght=500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #07111F; }
+        .serif { font-family: 'Cormorant Garamond', serif; }
+    </style>
+
+    <!-- JSON-LD Advanced Corporate and Commercial Legal Service Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LegalService",
+          "@id": "https://millardlegalpractice.com/#organization",
+          "name": "Millard Agingu & Company Advocates",
+          "url": "https://millardlegalpractice.com",
+          "logo": "https://millardlegalpractice.com/logo.png",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nairobi",
+            "addressCountry": "KE"
+          }
+        },
+        {
+          "@type": "Service",
+          "@id": "https://millardlegalpractice.com/services/corporate-commercial-lawyer-kenya#service",
+          "serviceType": "Corporate and Commercial Legal Advisory",
+          "provider": {
+            "@id": "https://millardlegalpractice.com/#organization"
+          },
+          "areaServed": {
+            "@type": "Country",
+            "name": "Kenya"
+          },
+          "description": "Comprehensive business formation, corporate governance setup, cross-border transactional due diligence, regulatory compliance counseling, and external legal counsel representation."
+        }
+      ]
+    }
+    </script>
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+</head>
+
+<body class="text-white">
+
+<!-- NAVBAR -->
+<header class="fixed top-0 left-0 w-full z-50 bg-[#07111F]/90 backdrop-blur border-b border-white/10">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-8 py-5">
+
+        <a href="../index.html" class="flex items-center gap-4">
+            <img src="https://i.imgur.com/YRpFo04.png" class="h-14 md:h-16 w-auto" alt="Logo">
+            <div>
+                <div class="text-lg font-semibold">Millard Agingu</div>
+                <div class="text-[10px] uppercase tracking-[0.25em] text-[#C8A96B]">
+                    & Company Advocates
+                </div>
+            </div>
+        </a>
+
+        <!-- DESKTOP NAV -->
+        <nav class="hidden md:flex gap-8 text-sm uppercase tracking-[0.15em] items-center">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition">Contact</a>
+        </nav>
+
+        <!-- DESKTOP CTA -->
+        <a href="../index.html#contact"
+           class="hidden md:inline-block bg-[#C8A96B] text-black px-5 py-3 rounded-full text-sm font-semibold hover:opacity-90 transition">
+            Consultation
+        </a>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button id="menu-btn" class="md:hidden text-white text-3xl focus:outline-none">
+            ☰
+        </button>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="hidden md:hidden bg-[#07111F] border-t border-white/10">
+        <div class="flex flex-col px-6 py-6 space-y-5 text-sm uppercase tracking-[0.15em]">
+            <a href="../index.html" class="hover:text-[#C8A96B] transition mobile-link">Home</a>
+            <a href="../index.html#practice" class="hover:text-[#C8A96B] transition mobile-link">Practice Areas</a>
+            <a href="../abogado-en-kenia.html" class="hover:text-[#C8A96B] transition mobile-link">Spanish Services</a>
+            <a href="../insights.html" class="hover:text-[#C8A96B] transition mobile-link">Insights</a>
+            <a href="../index.html#contact" class="hover:text-[#C8A96B] transition mobile-link">Contact</a>
+            <a href="../index.html#contact" class="bg-[#C8A96B] text-[#07111F] px-5 py-3 rounded-full text-center font-semibold mobile-link">
+                Consultation
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="relative pt-40 pb-24 px-8 text-center">
+    <div class="max-w-4xl mx-auto">
+
+        <p class="uppercase tracking-[0.35em] text-[#C8A96B] text-sm mb-5">
+            Strategic Legal Counsel for Businesses, Investors and Growing Enterprises
+        </p>
+
+        <h1 class="serif text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight">
+            Corporate &amp; Commercial Lawyers in Kenya
+        </h1>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify">
+            Successful businesses require more than legal compliance—they require practical legal strategies that support growth, manage risk, and protect commercial interests.
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify mt-4">
+            At Millard Agingu &amp; Company Advocates, we advise local businesses, foreign investors, entrepreneurs, startups, SMEs, multinational companies, and established enterprises on the legal issues that arise throughout the business lifecycle. Whether you are establishing a new business, negotiating commercial contracts, expanding into Kenya, restructuring your operations, or managing regulatory compliance, we provide practical legal solutions tailored to your commercial objectives.
+        </p>
+
+        <p class="text-gray-300 text-lg leading-relaxed max-w-3xl mx-auto text-justify mt-4">
+            Our approach combines sound legal analysis with an understanding of how businesses operate, enabling our clients to make informed decisions while managing legal risk.
+        </p>
+
+        <div class="mt-10">
+            <a href="../index.html#contact"
+               class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block">
+                Speak to a Corporate Lawyer
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTENT -->
+<section class="px-8 pb-28">
+    <div class="max-w-4xl mx-auto space-y-14">
+
+        <!-- Section 1: Introduction Block -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Comprehensive Corporate &amp; Commercial Legal Services in Kenya</h2>
+            <p>
+                We provide a full range of corporate legal services to businesses operating in Kenya across multiple industries. Our practice is built around navigating legal and procedural hurdles with clarity, allowing our corporate clients to pursue operational targets protected by dynamic structural frameworks.
+            </p>
+        </div>
+
+        <!-- Section 2: Business Formation & Entity Structuring -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Business Formation &amp; Entity Structuring</h2>
+            <p>
+                Establishing a business involves far more than completing registration formalities. The legal structure chosen at the outset influences taxation, governance, liability, fundraising opportunities, ownership arrangements, regulatory obligations, succession planning, and the long-term growth of the business.
+            </p>
+            <p>
+                We advise entrepreneurs, local businesses, foreign investors, family-owned enterprises, and multinational companies on selecting the most appropriate business vehicle based on their commercial objectives, operational requirements, investment plans, and regulatory considerations.
+            </p>
+            
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5">
+                <p class="font-medium text-white mb-3 text-sm">Our firm advises and assists with the establishment of a wide range of business entities, including:</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Private Limited Companies</li>
+                        <li>Public Companies</li>
+                        <li>Companies Limited by Guarantee</li>
+                        <li>Foreign Company Branches</li>
+                        <li>Limited Liability Partnerships (LLPs)</li>
+                    </ul>
+                    <ul class="space-y-1 list-disc pl-5">
+                        <li>Limited Partnerships (LPs)</li>
+                        <li>Business Names (Sole Proprietorships and Partnerships)</li>
+                        <li>Cooperative Societies</li>
+                        <li>NGOs, trusts, foundations, and non-profit entities</li>
+                        <li>Specialised business structures under Kenyan law</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p>
+                Our services extend beyond registration. We advise clients on name reservation, corporate structuring, customised Articles of Association, shareholder agreements, beneficial ownership compliance, regulatory registrations, post-incorporation governance, and the legal framework required to support sustainable business operations.
+            </p>
+            <p>
+                Rather than adopting a one-size-fits-all approach, we help clients establish legal structures that support their investment goals, governance preferences, tax considerations, and future expansion plans.
+            </p>
+        </div>
+
+        <!-- Section 3: Corporate Governance & Regulatory Compliance -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Corporate Governance &amp; Regulatory Compliance</h2>
+            <p>
+                Good corporate governance is essential for maintaining investor confidence, regulatory compliance, and effective decision-making. We advise companies on establishing governance structures that promote accountability while complying with Kenyan corporate legislation.
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5 text-xs text-gray-400">
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-1 list-disc pl-5">
+                    <li>Board and shareholder resolutions</li>
+                    <li>Directors' duties and corporate governance advice</li>
+                    <li>Corporate record management</li>
+                    <li>Beneficial ownership compliance</li>
+                    <li>Corporate restructuring</li>
+                    <li>Statutory compliance reviews</li>
+                    <li>Regulatory filings</li>
+                    <li>Ongoing legal advisory for directors and management</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 4: Commercial Contracts & Business Agreements -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Commercial Contracts &amp; Business Agreements</h2>
+            <p>
+                Commercial relationships are built on contracts. Poorly drafted agreements often become the source of expensive disputes that could have been avoided through careful legal drafting and review.
+            </p>
+            <p>
+                We prepare, negotiate, review, and advise on a broad range of commercial agreements, including:
+            </p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 text-xs bg-white/5 p-6 rounded-xl border border-white/5 text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Supply Agreements</li>
+                    <li>Distribution Agreements</li>
+                    <li>Agency Agreements</li>
+                    <li>Consultancy Agreements</li>
+                    <li>Service Agreements</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Joint Venture Agreements</li>
+                    <li>Shareholders Agreements</li>
+                    <li>Non-Disclosure Agreements</li>
+                    <li>Partnership Agreements</li>
+                    <li>Software/Tech Contracts</li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li>Licensing Agreements</li>
+                    <li>Franchise Agreements</li>
+                    <li>Procurement Contracts</li>
+                    <li>Manufacturing Deals</li>
+                    <li>MOUs &amp; Settlements</li>
+                </ul>
+            </div>
+            <p class="text-xs text-gray-500 italic">
+                Each agreement is drafted to reflect the commercial objectives of the parties while appropriately managing legal risk.
+            </p>
+        </div>
+
+        <!-- Section 5: Foreign Investment Advisory (With Cross-Linking) -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify bg-[#0B1C33] p-8 rounded-xl border border-white/10">
+            <h2 class="serif text-3xl text-[#C8A96B]">Foreign Investment Advisory</h2>
+            <p class="text-sm">
+                Kenya continues to attract international investors across numerous sectors. Entering a new jurisdiction, however, requires careful planning to ensure compliance with immigration, corporate, tax, employment, and sector-specific regulations.
+            </p>
+            <p class="text-sm">
+                We advise foreign investors throughout the investment lifecycle, coordinating market entry planning, corporate establishment, joint venture structuring, and regulatory approvals. For detailed, structural step-by-step guidance, please consult our targeted resources:
+            </p>
+            <ul class="list-disc pl-6 text-xs space-y-1 text-gray-400">
+                <li><a href="https://millardlegalpractice.com/register-company-kenya-foreigner" class="text-[#C8A96B] hover:underline font-medium">Company Registration in Kenya for Foreign Investors</a></li>
+                <li><a href="https://millardlegalpractice.com/starting-business-in-kenya-foreigner" class="text-[#C8A96B] hover:underline font-medium">Starting a Business in Kenya as a Foreigner: A Practical Legal Guide</a></li>
+            </ul>
+        </div>
+
+        <!-- Section 6: Mergers, Acquisitions & Employment -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Mergers, Acquisitions &amp; Business Transfers</h3>
+                <p class="text-sm">
+                    Whether acquiring an existing business, purchasing company shares, transferring business assets, or restructuring ownership, careful legal due diligence is essential.
+                </p>
+                <p class="text-xs text-gray-400">
+                    Our services include detailed legal due diligence, share and asset purchase transactions, business transfers, corporate restructurings, transactional documentation execution, completion mechanics management, and post-acquisition legal support.
+                </p>
+            </div>
+
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Employment Support for Employers</h3>
+                <p class="text-sm">
+                    Employers frequently require legal guidance before employment disputes arise. We advise businesses on protective operational employment frameworks.
+                </p>
+                <p class="text-xs text-gray-400">
+                    We specialize in drafting employment contracts, executive agreements, HR policies, and workplace compliance manuals. We guide management teams through Employment Act compliance, termination procedures, and immigration compliance relating to foreign employees.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 7: Data Protection & Compliance (With Targeted Cross-Linking) -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Data Protection &amp; Regulatory Compliance</h2>
+            <p>
+                Modern businesses process significant amounts of personal information. Compliance with data protection legislation has become an essential aspect of corporate governance and risk management.
+            </p>
+            <p>
+                We advise organisations on complex compliance variables under the Data Protection Act, 2019 (Kenya) and the General Data Protection Regulation (GDPR). For structural integration of operational policies, explore our dedicated services and legal analyses:
+            </p>
+            <div class="bg-white/5 p-6 rounded-xl border border-white/5 text-xs text-gray-400 space-y-3">
+                <p>
+                    Our core offerings are structured through our designated service framework: <a href="https://millardlegalpractice.com/services/data-protection-lawyer-kenya" class="text-[#C8A96B] hover:underline font-medium">Data Protection Service Advisory</a>.
+                </p>
+                <p>
+                    Review our industry insights on structural privacy obligations: <a href="https://millardlegalpractice.com/does-business-need-privacy-policy-kenya" class="text-[#C8A96B] hover:underline">Does a Business Need a Privacy Policy in Kenya?</a> and navigate cross-border data movements via our comprehensive review on <a href="https://millardlegalpractice.com/cross-border-data-transfer-Kenya" class="text-[#C8A96B] hover:underline">Cross-Border Data Transfers under Kenyan Law</a>.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 8: Due Diligence & Ongoing Counsel -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Corporate Due Diligence</h3>
+                <p class="text-sm">
+                    Businesses should understand legal risks before entering significant transactions. We conduct comprehensive due diligence for investors, purchasers, financial institutions, joint venture partners, and commercial lenders. Our reviews identify underlying structural, legal, regulatory, and contractual liabilities.
+                </p>
+            </div>
+
+            <div class="space-y-3 text-gray-300 text-justify">
+                <h3 class="serif text-2xl text-[#C8A96B]">Ongoing External Legal Counsel</h3>
+                <p class="text-sm">
+                    Many businesses require continuing legal support rather than assistance with a single transaction. We act as trusted external legal advisors, providing day-to-day contract reviews, corporate governance oversight, employment advice, risk management, and legal opinions. This allows companies to access experienced counsel without maintaining a full in-house department.
+                </p>
+            </div>
+        </div>
+
+        <!-- Section 9: Industries Advised -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Industries We Advise</h2>
+            <p class="text-sm">
+                Our corporate and commercial legal services support businesses across a broad range of industries, including:
+            </p>
+            <ul class="list-disc pl-6 grid grid-cols-2 md:grid-cols-3 gap-1 text-xs text-gray-400">
+                <li>Technology and Software</li>
+                <li>Real Estate and Construction</li>
+                <li>Manufacturing &amp; Logistics</li>
+                <li>Agriculture and Agribusiness</li>
+                <li>Financial Services &amp; FinTech</li>
+                <li>Healthcare and Pharma</li>
+                <li>Hospitality and Tourism</li>
+                <li>Energy and Infrastructure</li>
+                <li>Professional Services</li>
+                <li>Non-Profit Organisations</li>
+                <li>Import and Export Businesses</li>
+                <li>Foreign Investors</li>
+            </ul>
+        </div>
+
+        <!-- Section 10: Why Choose The Firm -->
+        <div class="space-y-4 text-gray-300 leading-relaxed text-justify bg-[#0B1C33] p-8 rounded-xl border border-white/10">
+            <h2 class="serif text-3xl text-[#C8A96B] text-center">Why Businesses Choose Millard Agingu &amp; Company Advocates</h2>
+            <p class="text-sm text-center max-w-2xl mx-auto">
+                Businesses engage us because we understand that legal advice must also make commercial sense. Our advice is practical, strategic, and tailored to each client's objectives. Rather than simply identifying legal risks, we help clients develop commercially viable solutions that facilitate growth while maintaining regulatory compliance.
+            </p>
+            <p class="text-xs text-gray-400 text-center mt-2">
+                Whether acting on a single transaction or serving as ongoing external legal counsel, we are committed to protecting our clients' interests at every stage of their business journey.
+            </p>
+        </div>
+
+        <!-- Section 11: Frequently Asked Questions -->
+        <div id="faqs" class="pt-8 space-y-6 border-t border-white/10 text-justify">
+            <h2 class="serif text-3xl text-[#C8A96B]">Frequently Asked Questions</h2>
+            
+            <div class="space-y-6 text-gray-300">
+                <div>
+                    <h4 class="text-white font-medium">Do I need a lawyer to register a company in Kenya?</h4>
+                    <p class="text-gray-400 text-sm mt-1">While it is possible to complete company registration independently, obtaining legal advice at the outset helps ensure that the chosen business structure, constitutional documents, governance arrangements, and ownership framework align with your long-term commercial objectives.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Can foreigners own companies in Kenya?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. Subject to sector-specific restrictions and regulatory requirements, foreign nationals may establish or invest in companies in Kenya. We advise foreign investors on structuring investments, incorporation, immigration compliance, and ongoing regulatory obligations.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">What is beneficial ownership?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Kenyan companies are generally required to maintain and disclose information relating to their beneficial owners in accordance with applicable law. We advise businesses on beneficial ownership compliance and related corporate governance obligations.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Can you review contracts before we sign them?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. We regularly review commercial contracts to identify legal risks, clarify obligations, negotiate more favourable terms, and ensure agreements adequately protect our clients' commercial interests.</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-medium">Do you provide ongoing legal support to businesses?</h4>
+                    <p class="text-gray-400 text-sm mt-1">Yes. Many of our clients retain us as external legal counsel to provide continuous advice on commercial transactions, contracts, regulatory compliance, employment matters, governance, and day-to-day legal issues.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 12: Related Insights Links -->
+        <div class="pt-8 border-t border-white/10 space-y-3 text-justify">
+            <h3 class="serif text-2xl text-[#C8A96B]">Related Insights</h3>
+            <p class="text-sm text-gray-400">Review our publication library for technical assessments of investment and corporate regulatory systems in Kenya:</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1 text-xs text-gray-400">
+                <ul class="space-y-1 list-disc pl-5">
+                    <li><a href="https://millardlegalpractice.com/register-company-kenya-foreigner" class="text-[#C8A96B] hover:underline">Company Registration in Kenya for Foreign Investors</a></li>
+                    <li><a href="https://millardlegalpractice.com/starting-business-in-kenya-foreigner" class="text-[#C8A96B] hover:underline">Starting a Business in Kenya as a Foreigner: A Practical Legal Guide</a></li>
+                    <li><a href="https://millardlegalpractice.com/services/data-protection-lawyer-kenya" class="text-[#C8A96B] hover:underline">Data Protection &amp; GDPR Compliance Service Framework</a></li>
+                </ul>
+                <ul class="space-y-1 list-disc pl-5">
+                    <li><a href="https://millardlegalpractice.com/does-business-need-privacy-policy-kenya" class="text-[#C8A96B] hover:underline">Understanding Privacy Policy Frameworks for Kenyan Businesses</a></li>
+                    <li><a href="https://millardlegalpractice.com/cross-border-data-transfer-Kenya" class="text-[#C8A96B] hover:underline">Cross-Border Data Transfer Restrictions under the ODPC</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Section 13: Final CTA Case Wrapper -->
+        <div class="bg-[#0B1C33] p-10 rounded-2xl text-center border border-white/10 text-justify">
+            <h3 class="serif text-2xl mb-4 text-[#C8A96B] text-center">Build Your Business on a Strong Legal Foundation</h3>
+            <p class="text-gray-300 mb-4 text-sm">
+                Whether you are establishing a new business, expanding into Kenya, negotiating commercial agreements, restructuring your company, or seeking ongoing legal counsel, obtaining strategic legal advice at the right time can help prevent costly legal problems in the future.
+            </p>
+            <p class="text-gray-400 mb-6 text-xs text-center font-medium">
+                Contact <strong>Millard Agingu &amp; Company Advocates</strong> to discuss how we can support your business with practical, commercially focused corporate and commercial legal services in Kenya.
+            </p>
+            <div class="text-center">
+                <a href="../index.html#contact"
+                   class="bg-[#C8A96B] text-black px-8 py-4 rounded-full font-semibold hover:opacity-90 transition inline-block text-sm">
+                    Contact Corporate Lawyers
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="border-t border-white/10 py-8 text-gray-500 text-sm bg-[#07111F]">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div>
+            © 2026 Millard Agingu &amp; Company Advocates
+        </div>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-6 text-gray-400">
+            <a href="privacy-policy.html" class="hover:text-[#C8A96B] transition">Privacy Policy</a>
+            <a href="terms-of-use.html" class="hover:text-[#C8A96B] transition">Terms of Use</a>
+            <a href="disclaimer.html" class="hover:text-[#C8A96B] transition">Disclaimer</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const mobileLinks = document.querySelectorAll('.mobile-link');
+
+    menuBtn.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    mobileLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            mobileMenu.classList.add('hidden');
+        });
+    });
+</script>
+</body>
+</html>
